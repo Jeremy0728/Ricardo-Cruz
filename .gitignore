@@ -1,0 +1,10 @@
+﻿node_modules/
+origin/
+
+.sass-cache/
+*.css.map
+assets/css/style.recompiled.css
+mediweb-mirror-manifest.json
+
+.DS_Store
+Thumbs.db
