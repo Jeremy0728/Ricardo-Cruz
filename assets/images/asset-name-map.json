@@ -1,0 +1,231 @@
+﻿[
+    {
+        "value":  [
+                      {
+                          "source":  "assets/images/banner/15 - copia.png",
+                          "destination":  "assets/images/banner/15-alt.png"
+                      },
+                      {
+                          "source":  "assets/images/banner/contact - copia.png",
+                          "destination":  "assets/images/banner/contact-alt.png"
+                      },
+                      {
+                          "source":  "assets/images/banner/figma-hero-surgery-2.png",
+                          "destination":  "assets/images/banner/hero-02.png"
+                      },
+                      {
+                          "source":  "assets/images/banner/figma-hero-surgery-3 - copia.png",
+                          "destination":  "assets/images/banner/hero-03-alt.png"
+                      },
+                      {
+                          "source":  "assets/images/banner/figma-hero-surgery-3.png",
+                          "destination":  "assets/images/banner/hero-03.png"
+                      },
+                      {
+                          "source":  "assets/images/banner/figma-hero-surgery.png",
+                          "destination":  "assets/images/banner/hero-01.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 231915.png",
+                          "destination":  "assets/images/descarga/casos/extra-01.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 231924.png",
+                          "destination":  "assets/images/descarga/casos/extra-02.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 231948.png",
+                          "destination":  "assets/images/descarga/casos/extra-03.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 231958.png",
+                          "destination":  "assets/images/descarga/casos/extra-04.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232019.png",
+                          "destination":  "assets/images/descarga/casos/extra-05.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232028.png",
+                          "destination":  "assets/images/descarga/casos/extra-06.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232112.png",
+                          "destination":  "assets/images/descarga/casos/extra-07.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232120.png",
+                          "destination":  "assets/images/descarga/casos/extra-08.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232138.png",
+                          "destination":  "assets/images/descarga/casos/extra-09.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232147.png",
+                          "destination":  "assets/images/descarga/casos/extra-10.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232159.png",
+                          "destination":  "assets/images/descarga/casos/extra-11.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232208.png",
+                          "destination":  "assets/images/descarga/casos/extra-12.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232219.png",
+                          "destination":  "assets/images/descarga/casos/extra-13.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232227.png",
+                          "destination":  "assets/images/descarga/casos/extra-14.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232248.png",
+                          "destination":  "assets/images/descarga/casos/extra-15.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232257.png",
+                          "destination":  "assets/images/descarga/casos/extra-16.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232320.png",
+                          "destination":  "assets/images/descarga/casos/extra-17.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232330.png",
+                          "destination":  "assets/images/descarga/casos/extra-18.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232339.png",
+                          "destination":  "assets/images/descarga/casos/extra-19.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232351.png",
+                          "destination":  "assets/images/descarga/casos/extra-20.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232359.png",
+                          "destination":  "assets/images/descarga/casos/extra-21.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232606.png",
+                          "destination":  "assets/images/descarga/casos/extra-22.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232613.png",
+                          "destination":  "assets/images/descarga/casos/extra-23.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232627.png",
+                          "destination":  "assets/images/descarga/casos/extra-24.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232638.png",
+                          "destination":  "assets/images/descarga/casos/extra-25.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232656.png",
+                          "destination":  "assets/images/descarga/casos/extra-26.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232707.png",
+                          "destination":  "assets/images/descarga/casos/extra-27.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232716.png",
+                          "destination":  "assets/images/descarga/casos/extra-28.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232750.png",
+                          "destination":  "assets/images/descarga/casos/extra-29.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232758.png",
+                          "destination":  "assets/images/descarga/casos/extra-30.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232811.png",
+                          "destination":  "assets/images/descarga/casos/extra-31.png"
+                      },
+                      {
+                          "source":  "assets/images/descarga/casos/Captura de pantalla 2026-05-22 232821.png",
+                          "destination":  "assets/images/descarga/casos/extra-32.png"
+                      },
+                      {
+                          "source":  "assets/images/rinoplastia/figma-nose-reshaping.png",
+                          "destination":  "assets/images/rinoplastia/nose-reshaping.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033245.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-01.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033313.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-02.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033515.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-03.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033534.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-04.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033642.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-05.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033657.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-06.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033708.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-07.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033725.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-08.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033812.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-09.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033931.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-10.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 033952.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-11.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 034005.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-12.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 034015.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-13.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 034025.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-14.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 034033.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-15.png"
+                      },
+                      {
+                          "source":  "assets/images/success/mamoplastia/Captura de pantalla 2026-05-20 034347.png",
+                          "destination":  "assets/images/success/mamoplastia/extra-16.png"
+                      }
+                  ],
+        "Count":  55
+    },
+    {
+        "source":  "assets/images/banner/Firefly (12).png",
+        "destination":  "assets/images/banner/firefly-12.png"
+    }
+]

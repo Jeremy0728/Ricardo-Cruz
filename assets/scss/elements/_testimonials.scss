@@ -1,5 +1,5 @@
 .single-testimonials-style {
-    background: #F1F1FF;
+    background: var(--color-surface);
     padding: 31px;
     border-radius: 10px;
     position: relative;
@@ -30,7 +30,7 @@
                 span {
                     padding: 10px 21px;
                     border-radius: 33px;
-                    border: 1px solid rgba(97, 94, 252, 0.2);
+                    border: 1px solid rgba(30, 86, 161, 0.2);
                     font-weight: 400;
                     font-size: 16px;
                     color: var(--color-primary);
@@ -116,7 +116,7 @@
     border-radius: 40px;
 
     @media #{$smlg-device} {
-        background-color: #615EFC;
+        background-color: var(--color-primary);
         background-image: none;
     }
 
@@ -204,7 +204,7 @@
             height: 50px;
             width: 50px;
             background: transparent;
-            border: 1px solid #615EFC;
+            border: 1px solid var(--color-primary);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -220,7 +220,7 @@
             }
 
             i {
-                color: #615EFC;
+                color: var(--color-primary);
                 transition: .3s;
             }
 
@@ -288,8 +288,8 @@
             button {
                 padding: 9px 26px;
                 border-radius: 33px;
-                border: 1px solid rgba(97, 94, 252, 0.2) !important;
-                border-color: rgba(97, 94, 252, 0.2);
+                border: 1px solid rgba(30, 86, 161, 0.2) !important;
+                border-color: rgba(30, 86, 161, 0.2);
 
                 &.active {
                     background: var(--color-primary) !important;

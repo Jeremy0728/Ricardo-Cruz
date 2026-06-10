@@ -1,0 +1,1548 @@
+// Propuesta procedure pages.
+
+// Procedure page system
+
+.procedure-hero-slider {
+    position: relative;
+    overflow: hidden;
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, .36);
+        background: rgba(255, 255, 255, .12);
+        color: var(--color-white);
+        backdrop-filter: var(--glass-blur);
+
+        &::after {
+            display: none;
+        }
+    }
+
+    @media #{$large-mobile} {
+        .swiper-button-next,
+        .swiper-button-prev {
+            display: none;
+        }
+    }
+}
+
+.procedure-hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 720px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(10, 26, 41, .86) 0%, rgba(10, 26, 41, .62) 44%, rgba(10, 26, 41, .18) 100%);
+        pointer-events: none;
+    }
+
+    > .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    .section-kicker {
+        color: rgba(255, 255, 255, .86);
+    }
+
+    h1,
+    h2 {
+        max-width: 820px;
+        margin-bottom: 24px;
+        color: var(--color-white);
+        font-family: var(--font-primary);
+        font-size: 64px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 1.08;
+    }
+
+    p {
+        max-width: 660px;
+        margin: 0;
+        color: rgba(255, 255, 255, .86);
+        font-size: 18px;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+    @media #{$mdsm-layout} {
+        min-height: 640px;
+        background-position: 58% center;
+
+        h1,
+        h2 {
+            font-size: 48px;
+        }
+    }
+
+    @media #{$sm-layout} {
+        min-height: 560px;
+
+        &::before {
+            background: linear-gradient(90deg, rgba(10, 26, 41, .9) 0%, rgba(10, 26, 41, .74) 100%);
+        }
+
+        h1,
+        h2 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.58;
+        }
+    }
+}
+
+.procedure-hero-content {
+    max-width: 860px;
+}
+
+.procedure-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-top: 34px;
+
+    .rts-btn {
+        margin: 0;
+    }
+
+    @media #{$large-mobile} {
+        align-items: stretch;
+        flex-direction: column;
+
+        .rts-btn {
+            justify-content: center;
+            width: 100%;
+        }
+    }
+}
+
+.cases-heading {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+
+    .pre-title {
+        justify-content: center;
+    }
+
+    .title {
+        width: 100%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+.continuous-cases-swiper {
+    overflow: visible;
+    cursor: default;
+
+    .swiper-wrapper {
+        width: max-content;
+        transition-timing-function: linear !important;
+        animation: continuous-cases-scroll 58s linear infinite;
+        will-change: transform;
+    }
+
+    .swiper-slide {
+        flex: 0 0 auto;
+        margin-right: 40px !important;
+    }
+
+    &:active {
+        cursor: default;
+    }
+
+    @media #{$mdsm-layout} {
+        .swiper-slide {
+            margin-right: 24px !important;
+        }
+    }
+
+    @media #{$large-mobile} {
+        .swiper-slide {
+            margin-right: 18px !important;
+        }
+    }
+}
+
+@keyframes continuous-cases-scroll {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.procedure-specialist-section {
+    padding: 105px 0;
+    background: var(--color-white);
+
+    .title-area-left {
+        .pre-title {
+            color: var(--color-primary);
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .title {
+            max-width: 680px;
+            margin-bottom: 24px;
+            color: var(--color-heading-1);
+            font-size: 52px;
+            line-height: 1.12;
+            letter-spacing: 0;
+        }
+    }
+
+    .disc {
+        max-width: 720px;
+        color: var(--color-body);
+        font-size: 17px;
+        line-height: 1.72;
+        text-align: left;
+    }
+
+    .doctor-key-points {
+        margin-top: 28px;
+    }
+
+    .doctor-signature {
+        max-width: 250px;
+    }
+
+    .button-wrapper {
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+}
+
+.procedure-specialist-media {
+    .doctor-image-rotator {
+        clip-path: inset(0 0 0 0);
+    }
+
+    .doctor-image-frame {
+        animation-play-state: running;
+    }
+}
+
+@media #{$mdsm-layout} {
+    .procedure-specialist-section {
+        padding: 80px 0;
+
+        .title-area-left {
+            .title {
+                font-size: 42px;
+            }
+        }
+    }
+}
+
+@media #{$sm-layout} {
+    .procedure-specialist-section {
+        .title-area-left {
+            .title {
+                font-size: 34px;
+            }
+        }
+    }
+}
+
+.procedure-page {
+    overflow: hidden;
+    background: var(--color-white);
+}
+
+.procedure-section-grid {
+    display: grid;
+    align-items: center;
+    gap: 70px;
+    min-width: 0;
+}
+
+.procedure-section-grid-intro {
+    grid-template-columns: minmax(0, 1.08fr) minmax(380px, .82fr);
+    gap: 82px;
+
+    .procedure-section-copy {
+        h2,
+        p,
+        .procedure-feature-list {
+            max-width: 720px;
+        }
+    }
+}
+
+.procedure-section-grid-specialist,
+.procedure-section-grid-faq {
+    grid-template-columns: minmax(300px, .9fr) minmax(0, 1.1fr);
+}
+
+.procedure-section-copy,
+.procedure-section-heading {
+    min-width: 0;
+
+    h2 {
+        max-width: 860px;
+        margin-bottom: 22px;
+        color: var(--color-heading-1);
+        font-family: var(--font-primary);
+        font-size: 44px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 1.16;
+    }
+
+    p {
+        max-width: 760px;
+        margin-bottom: 18px;
+        color: var(--color-body);
+        font-size: 17px;
+        line-height: 1.72;
+        text-align: left;
+    }
+}
+
+.procedure-section-heading {
+    margin-bottom: 44px;
+}
+
+.procedure-section-heading-center {
+    max-width: 820px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    .section-kicker {
+        justify-content: center;
+    }
+
+    p {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+}
+
+.procedure-section-heading-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
+    column-gap: clamp(48px, 7vw, 118px);
+    row-gap: 0;
+    align-items: end;
+
+    .section-kicker,
+    h2 {
+        grid-column: 1;
+    }
+
+    h2 {
+        max-width: 800px;
+        margin-bottom: 0;
+    }
+
+    p {
+        grid-column: 2;
+        grid-row: 2;
+        max-width: 520px;
+        margin-bottom: 0;
+        align-self: end;
+    }
+}
+
+.procedure-intro-media,
+.procedure-specialist-media {
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--color-surface);
+
+    img,
+    video {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.procedure-intro-media {
+    justify-self: center;
+    width: 100%;
+    max-width: 430px;
+    aspect-ratio: 9 / 16;
+    min-height: 0;
+
+    img,
+    video {
+        object-position: center;
+    }
+}
+
+.procedure-specialist-media {
+    min-height: 640px;
+
+    img {
+        object-position: center top;
+    }
+}
+
+.procedure-feature-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    max-width: 760px;
+    margin-top: 34px;
+}
+
+.procedure-feature-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-height: 68px;
+    padding: 17px 18px;
+    border: 1px solid rgba(30, 86, 161, .16);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--color-heading-1);
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 500;
+
+    span {
+        color: var(--color-primary);
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+.procedure-process-section,
+.procedure-approach-section,
+.procedure-faq-section {
+    background: var(--color-surface);
+}
+
+.procedure-process-grid,
+.procedure-approach-grid,
+.before-after-results-grid {
+    display: grid;
+    gap: 24px;
+}
+
+.procedure-process-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.procedure-process-card,
+.procedure-approach-card {
+    min-width: 0;
+    padding: 34px;
+    border: 1px solid rgba(30, 86, 161, .14);
+    border-radius: 8px;
+    background: var(--color-white);
+    box-shadow: 0 20px 54px rgba(17, 16, 50, .06);
+
+    h3 {
+        margin-bottom: 14px;
+        color: var(--color-heading-1);
+        font-size: 24px;
+        line-height: 1.24;
+    }
+
+    p {
+        margin: 0;
+        color: var(--color-body);
+        font-size: 15px;
+        line-height: 1.66;
+        text-align: left;
+    }
+}
+
+.procedure-process-card {
+    > span {
+        display: block;
+        margin-bottom: 42px;
+        color: var(--color-primary);
+        font-family: var(--font-primary);
+        font-size: 42px;
+        line-height: 1;
+    }
+}
+
+.procedure-transformations-section {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background: var(--color-surface);
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        opacity: .45;
+        background-image:
+            linear-gradient(32deg, transparent 0 46%, rgba(255, 255, 255, .7) 46.2% 46.6%, transparent 46.8% 100%),
+            linear-gradient(148deg, transparent 0 49%, rgba(255, 255, 255, .55) 49.2% 49.6%, transparent 49.8% 100%),
+            linear-gradient(76deg, transparent 0 58%, rgba(255, 255, 255, .45) 58.2% 58.5%, transparent 58.7% 100%);
+        background-position: center, 12% 18%, 84% 68%;
+        background-size: 520px 520px, 680px 680px, 560px 560px;
+        pointer-events: none;
+    }
+}
+
+.procedure-transformations-container {
+    position: relative;
+    max-width: 1680px;
+    padding-right: 56px;
+    padding-left: 56px;
+}
+
+.procedure-transformations-heading {
+    margin-bottom: 42px;
+
+    &:not(.procedure-section-heading-split) h2 {
+        max-width: 760px;
+    }
+}
+
+.procedure-transformations-showcase {
+    display: flex;
+    align-items: stretch;
+    gap: clamp(14px, 1.25vw, 24px);
+    height: clamp(420px, 33vw, 520px);
+    max-height: 520px;
+    min-height: 0;
+}
+
+.procedure-transformation-card {
+    position: relative;
+    display: flex;
+    flex: 0 0 clamp(102px, 7.6vw, 126px);
+    min-width: 0;
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+    padding: 28px 18px;
+    border: 1px solid rgba(30, 86, 161, .08);
+    border-radius: 24px;
+    background: var(--color-white);
+    box-shadow: 0 24px 64px rgba(17, 16, 50, .06);
+    color: var(--color-heading-1);
+    transition: flex-basis .45s ease, flex-grow .45s ease, padding .45s ease, border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+
+    &:hover {
+        border-color: rgba(30, 86, 161, .2);
+        box-shadow: 0 28px 70px rgba(17, 16, 50, .1);
+        transform: translateY(-4px);
+    }
+
+    &:focus-within {
+        border-color: rgba(30, 86, 161, .24);
+    }
+}
+
+.procedure-transformation-card.is-active {
+    flex: 1 1 720px;
+    gap: 18px;
+    padding: 18px;
+}
+
+.procedure-transformation-toggle {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--color-heading-1);
+    cursor: pointer;
+    text-align: center;
+
+    &:focus-visible {
+        outline: 3px solid rgba(22, 103, 176, .34);
+        outline-offset: 4px;
+    }
+}
+
+.procedure-transformation-card.is-active .procedure-transformation-toggle {
+    flex: 0 0 clamp(46px, 5vw, 62px);
+    width: auto;
+    padding: 4px 0;
+}
+
+.procedure-transformation-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: var(--color-heading-1);
+
+    i {
+        font-size: 32px;
+        line-height: 1;
+    }
+}
+
+.procedure-transformation-label {
+    color: var(--color-heading-1);
+    font-family: var(--font-primary);
+    font-size: clamp(26px, 1.15vw, 23px);
+    font-weight: 600;
+    line-height: 1.18;
+    text-align: center;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+   
+}
+
+
+.procedure-transformation-content {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s ease, visibility .3s ease;
+}
+
+.procedure-transformation-card.is-active .procedure-transformation-content {
+    flex: 1 1 auto;
+    width: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+.procedure-transformation-media {
+    display: block;
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 0;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--color-surface);
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.procedure-transformation-copy,
+.procedure-transformation-detail,
+.procedure-transformations-progress {
+    display: none;
+}
+
+.procedure-credential-row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin: 34px 0;
+
+    div {
+        min-width: 0;
+        padding: 18px;
+        border: 1px solid rgba(30, 86, 161, .14);
+        border-radius: 8px;
+        background: var(--color-surface);
+    }
+
+    strong,
+    span {
+        display: block;
+    }
+
+    strong {
+        color: var(--color-heading-1);
+        font-family: var(--font-primary);
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 1.1;
+    }
+
+    span {
+        margin-top: 6px;
+        color: var(--color-body);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 1.25;
+        text-transform: uppercase;
+    }
+}
+
+.procedure-approach-grid {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: min(55%, 690px);
+    min-height: clamp(390px, 32vw, 510px);
+    grid-template-columns: none;
+}
+
+.procedure-approach-card {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    min-height: clamp(390px, 32vw, 510px);
+    padding: clamp(40px, 4.6vw, 74px);
+    scroll-margin-top: 120px;
+
+    &.is-active {
+        display: flex;
+    }
+
+    h3 {
+        margin-bottom: 28px;
+        font-size: clamp(30px, 2.8vw, 42px);
+        line-height: 1.12;
+    }
+
+    p {
+        max-width: 570px;
+        font-size: 16px;
+        line-height: 1.72;
+    }
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        max-width: max-content;
+        min-height: 50px;
+        margin-top: 38px;
+        padding: 14px 30px;
+        border: 1px solid var(--color-secondary);
+        color: var(--color-secondary);
+        font-family: var(--font-secondary);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        border-radius:100px;
+
+        &::after {
+            display: none;
+        }
+
+        &:hover {
+            background: var(--color-secondary);
+            color: var(--color-white);
+        }
+    }
+}
+
+.procedure-approach-showcase {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: clamp(430px, 36vw, 560px);
+    margin-top: 46px;
+}
+
+.procedure-approach-media {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 58%;
+    margin: 0;
+    overflow: hidden;
+    background: var(--color-surface);
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.procedure-approach-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    width: min(100%, 1200px);
+    max-width: 100%;
+    margin: 34px auto 0;
+}
+
+.procedure-approach-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    min-height: 38px;
+    padding: 10px 16px;
+    border-radius: 30px;
+    background: rgba(30, 86, 161, .08);
+    color: var(--color-secondary);
+    font-family: var(--font-secondary);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+    transition: background-color .25s ease, color .25s ease;
+
+    i {
+        display: none;
+    }
+
+    span {
+        min-width: 0;
+    }
+
+    &:hover {
+        background: rgba(30, 86, 161, .14);
+    }
+
+    &.is-active {
+        background: var(--color-secondary);
+        color: var(--color-white);
+    }
+
+    &:focus-visible {
+        outline: 2px solid rgba(22, 103, 176, .35);
+        outline-offset: 3px;
+    }
+}
+
+.procedure-philosophy-section {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background: var(--color-secondary);
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background-image: url(../images/rinoplastia/ultrasonic-preservation-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: .25;
+        pointer-events: none;
+    }
+}
+
+.procedure-philosophy-card {
+    position: relative;
+    z-index: 1;
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--glass-bg-dark);
+    backdrop-filter: var(--glass-blur);
+    padding: 20px;
+    border-radius: 25px;
+
+    .section-kicker {
+        justify-content: center;
+        color: rgba(255, 255, 255, .78);
+    }
+
+    h2 {
+        margin-bottom: 22px;
+        color: var(--color-white);
+        font-family: var(--font-primary);
+        font-size: 52px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 1.14;
+    }
+
+    p {
+        max-width: 760px;
+        margin: 0 auto 18px;
+        color: rgba(255, 255, 255, .78);
+        font-size: 17px;
+        line-height: 1.72;
+        text-align: center;
+    }
+
+    p:last-of-type {
+        margin-bottom: 34px;
+    }
+
+    .rts-btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.procedure-results-section {
+    background: var(--color-white);
+}
+
+.procedure-results-swiper {
+    overflow: hidden;
+
+    .swiper-slide {
+        height: auto;
+    }
+
+    .after-before-main-wrapper-one {
+        width: 100%;
+    }
+
+    .comparison-slider-wrapper,
+    .comparison-slider {
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    .comparison-slider {
+        height: clamp(300px, 34vw, 470px);
+
+        > img,
+        .resize > img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .resize {
+            top: 0;
+            bottom: 0;
+            height: 100%;
+        }
+
+        .resize > img {
+            min-width: 100%;
+            max-height: none;
+            max-width: none;
+        }
+    }
+}
+
+.procedure-results-pagination {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 28px;
+    z-index: 5;
+
+    .swiper-pagination-bullet {
+        display: inline-flex;
+        width: 10px !important;
+        height: 10px !important;
+        margin: 0 !important;
+        border-radius: 999px;
+        background: rgba(17, 16, 50, .24);
+        opacity: 1 !important;
+        transition: width .3s ease, background-color .3s ease;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 34px !important;
+        background: var(--color-primary);
+    }
+}
+
+.before-after-results-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    .comparison-slider-wrapper,
+    .comparison-slider {
+        overflow: hidden;
+        border-radius: 8px;
+    }
+}
+
+.procedure-faq-section {
+    .procedure-section-heading {
+        margin-bottom: 0;
+    }
+}
+
+.procedure-faq-accordion {
+    .accordion-item {
+        overflow: hidden;
+        margin-bottom: 14px;
+        border: 1px solid rgba(30, 86, 161, .14);
+        border-radius: 8px;
+        background: var(--color-white);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .accordion-button {
+        min-height: 72px;
+        padding: 20px 54px 20px 24px;
+        background: var(--color-white);
+        box-shadow: none;
+        color: var(--color-heading-1);
+        font-family: var(--font-secondary);
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 1.35;
+
+        &::after {
+            position: absolute;
+            right: 24px;
+            background-image: none;
+            content: "\f107";
+            color: var(--color-primary);
+            font-family: var(--font-3);
+            transform: rotate(180deg);
+        }
+
+        &.collapsed::after {
+            transform: rotate(0deg);
+        }
+    }
+
+    .accordion-body {
+        padding: 0 24px 24px;
+        color: var(--color-body);
+        font-size: 15px;
+        line-height: 1.68;
+        text-align: left;
+    }
+}
+
+@media #{$smlg-device} {
+    .procedure-section-heading-split {
+        grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+        column-gap: 40px;
+
+        p {
+            max-width: 420px;
+        }
+    }
+
+    .procedure-approach-grid {
+        width: min(58%, 610px);
+        margin-left: 0;
+        grid-template-columns: none;
+    }
+
+    .procedure-approach-card {
+        padding: 42px;
+    }
+
+    .procedure-approach-tags {
+        max-width: 960px;
+    }
+
+    .procedure-results-swiper {
+        .comparison-slider {
+            height: clamp(280px, 44vw, 420px);
+
+            > img,
+            .resize > img {
+                height: 100%;
+            }
+        }
+    }
+
+    .before-after-results-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .procedure-transformations-container {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .procedure-transformations-container {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .procedure-transformations-heading {
+        margin-bottom: 34px;
+    }
+
+    .procedure-transformations-showcase {
+        height: auto;
+        max-height: none;
+        min-height: 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 18px;
+        scroll-padding-left: 0;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .procedure-transformation-card,
+    .procedure-transformation-card.is-active {
+        display: flex;
+        flex: 0 0 min(430px, calc(100vw - 64px));
+        flex-direction: column;
+        gap: 24px;
+        min-width: 0;
+        height: auto;
+        padding: 24px;
+        border-radius: 20px;
+        scroll-snap-align: start;
+        transform: none;
+    }
+
+    .procedure-transformation-card:hover {
+        transform: none;
+    }
+
+    .procedure-transformation-toggle,
+    .procedure-transformation-card.is-active .procedure-transformation-toggle {
+        flex: 0 0 auto;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 18px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        cursor: default;
+        text-align: left;
+    }
+
+    .procedure-transformation-icon {
+        flex: 0 0 58px;
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        background: var(--color-surface);
+
+        i {
+            font-size: 28px;
+        }
+    }
+
+    .procedure-transformation-label {
+        min-width: 0;
+        font-size: 26px;
+        line-height: 1.22;
+        text-align: left;
+        white-space: normal;
+        writing-mode: initial;
+        transform: none;
+    }
+
+    .procedure-transformation-content,
+    .procedure-transformation-card.is-active .procedure-transformation-content {
+        display: flex;
+        flex: 1 1 auto;
+        gap: 20px;
+        height: auto;
+        width: auto;
+        overflow: visible;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .procedure-transformation-media {
+        flex: 0 0 auto;
+        height: auto;
+        max-height: none;
+        aspect-ratio: 16 / 10.8;
+        border-radius: 12px;
+    }
+
+    .procedure-transformation-media img {
+        height: 100%;
+        min-height: 0;
+    }
+
+    .procedure-transformation-copy {
+        display: block;
+        margin: 0;
+        color: var(--color-body);
+        font-size: 16px;
+        line-height: 1.65;
+        text-align: left;
+    }
+
+    .procedure-transformation-detail {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        width: max-content;
+        color: var(--color-heading-1);
+        font-family: var(--font-secondary);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        text-decoration: underline;
+        text-underline-offset: 6px;
+
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+
+    .procedure-transformations-progress {
+        display: block;
+        width: min(352px, calc(100% - 30px));
+        height: 4px;
+        margin-top: 18px;
+        background: rgba(88, 106, 76, .22);
+    }
+
+    .procedure-transformations-progress span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #586a4c;
+        transform: scaleX(.08);
+        transform-origin: left center;
+        transition: transform .18s ease;
+    }
+}
+
+@media #{$mdsm-layout} {
+    .procedure-section-heading-split {
+        display: block;
+
+        h2 {
+            margin-bottom: 18px;
+        }
+
+        p {
+            max-width: 760px;
+            margin-bottom: 0;
+        }
+    }
+
+    .procedure-section-grid,
+    .procedure-section-grid-intro,
+    .procedure-section-grid-specialist,
+    .procedure-section-grid-faq {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .procedure-specialist-media {
+        max-width: 520px;
+        min-height: 580px;
+    }
+
+    .procedure-process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .procedure-approach-showcase {
+        flex-direction: column;
+        align-items: stretch;
+        min-height: 0;
+    }
+
+    .procedure-approach-grid {
+        order: 1;
+        width: 100%;
+        min-height: 0;
+        margin-left: 0;
+        grid-template-columns: none;
+    }
+
+    .procedure-approach-card {
+        min-height: 0;
+    }
+
+    .procedure-approach-media {
+        position: relative;
+        order: 2;
+        width: 100%;
+        height: clamp(320px, 48vw, 420px);
+        margin-top: 0;
+    }
+
+    .procedure-approach-tags {
+        width: 100%;
+    }
+}
+
+@media #{$sm-layout} {
+    .procedure-section-copy,
+    .procedure-section-heading {
+        h2 {
+            font-size: 32px;
+            line-height: 1.18;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .procedure-feature-list,
+    .procedure-credential-row,
+    .procedure-approach-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .procedure-approach-section {
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .procedure-section-heading {
+            order: 1;
+            margin-bottom: 38px;
+            text-align: center;
+
+            .section-kicker {
+                justify-content: center;
+            }
+
+            h2,
+            p {
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+            }
+        }
+    }
+
+    .procedure-approach-tags {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        overflow: hidden;
+        border: 0;
+        border-radius: 0;
+        background: #F7F3EA;
+        box-shadow: none;
+    }
+
+    .procedure-approach-tag {
+        flex: 0 0 auto;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 100%;
+        min-height: 54px;
+        padding: 16px 30px;
+        border: 0;
+        border-radius: 0;
+        background: var(--color-surface);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+
+        i {
+            display: inline-flex;
+            flex: 0 0 auto;
+            font-size: 13px;
+            line-height: 1;
+        }
+    }
+
+    .procedure-approach-grid {
+        order: 1;
+        width: 100%;
+        min-height: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .procedure-approach-section.is-approach-tabs-ready {
+        .procedure-approach-card {
+            display: none;
+        }
+
+        .procedure-approach-card.is-active {
+            display: flex;
+        }
+    }
+
+    .procedure-approach-showcase {
+        order: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .procedure-approach-card {
+        min-height: 0;
+
+        h3,
+        p {
+            text-align: center;
+        }
+
+        a {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    .procedure-approach-media {
+        order: 2;
+        height: 250px;
+    }
+
+    .procedure-intro-media {
+        max-width: 340px;
+    }
+
+    .procedure-specialist-media {
+        min-height: 500px;
+    }
+
+    .procedure-process-card {
+        padding: 26px;
+    }
+
+    .procedure-approach-card {
+        padding: 42px 30px;
+    }
+
+    .procedure-results-swiper {
+        .comparison-slider {
+            height: clamp(240px, 62vw, 330px);
+
+            > img,
+            .resize > img {
+                height: 100%;
+            }
+        }
+    }
+
+    .procedure-results-pagination {
+        margin-top: 22px;
+    }
+
+    .procedure-philosophy-card {
+        h2 {
+            font-size: 34px;
+        }
+    }
+
+    .procedure-transformations-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .procedure-transformations-heading {
+        margin-bottom: 30px;
+
+        p {
+            display: none;
+        }
+    }
+
+    .procedure-transformations-showcase {
+        gap: 18px;
+        padding-bottom: 16px;
+    }
+
+    .procedure-transformation-card,
+    .procedure-transformation-card.is-active {
+        flex-basis: calc(100vw - 30px);
+        gap: 20px;
+        padding: 24px;
+        border-radius: 16px;
+    }
+
+    .procedure-transformation-icon {
+        flex-basis: 54px;
+        width: 54px;
+        height: 54px;
+
+        i {
+            font-size: 25px;
+        }
+    }
+
+    .procedure-transformation-label {
+        font-size: 20px;
+    }
+
+    .procedure-transformation-media {
+        aspect-ratio: 16 / 10.2;
+    }
+
+    .procedure-transformation-copy {
+        font-size: 16px;
+    }
+
+    .procedure-transformations-progress {
+        width: 56px;
+        margin-top: 0;
+    }
+}
+
+// Procedure breadcrumb modifier
+
+.breadcrumb-rinoplastia {
+    --breadcrumb-image: url(../images/rinoplastia/hero.webp);
+    --breadcrumb-position: center;
+    --breadcrumb-size: 100% auto;
+    --breadcrumb-attachment: scroll;
+    --breadcrumb-overlay: linear-gradient(90deg, rgba(17, 16, 50, 0.68), rgba(17, 16, 50, 0.3));
+    --breadcrumb-text-color: #ffffff;
+    --breadcrumb-title-shadow: 0 8px 24px rgba(17, 16, 50, 0.24);
+}

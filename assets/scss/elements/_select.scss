@@ -6,7 +6,7 @@
     height: 56px;
     display: flex;
     align-items: center;
-    border: 1px solid rgba(97, 94, 252, 0.2);
+    border: 1px solid rgba(30, 86, 161, 0.2);
     justify-content: space-between;
     max-width: 520px;
 
@@ -40,7 +40,7 @@
         position: absolute;
         left: 0;
         min-width: max-content;
-        color: #6B6B6B;
+        color: var(--color-body);
         cursor: pointer;
     }
 

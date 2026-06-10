@@ -1,6 +1,7 @@
 // button
 .rts-btn {
     padding: 18px 26px;
+    font-family: var(--font-secondary);
     font-size: 16px;
     border-radius: 100px;
     margin: 0;
@@ -11,7 +12,7 @@
     transition: .3s;
 
     &.btn-primary {
-        background: var(--color-primary);
+        background: var(--gradient-primary);
         color: #fff;
 
         display: flex;
@@ -23,7 +24,11 @@
         }
 
         &:hover {
-            background: #111032;
+            background: linear-gradient(
+        145deg,
+        var(--color-secondary) 100%,
+        var(--color-primary) 0%
+        );
             color: #fff;
         }
     }
@@ -37,7 +42,7 @@
     justify-content: center;
     height: 40px;
     min-width: 40px;
-    border: 1px solid #615efc33;
+    border: 1px solid rgba(30, 86, 161, 0.2);
     border-radius: 50%;
     cursor: pointer;
 }

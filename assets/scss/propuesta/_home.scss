@@ -1,0 +1,532 @@
+// Propuesta home sections and home-only modules.
+
+// Home process FAQ
+
+.process-faq-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 760px;
+    padding: 90px 0;
+    overflow: hidden;
+    background-image: var(--process-faq-bg, url(../images/banner/15.png));
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(244, 246, 248, .08) 0%, rgba(244, 246, 248, .18) 46%, rgba(244, 246, 248, .58) 100%);
+        pointer-events: none;
+    }
+
+    >.container {
+        position: relative;
+        z-index: 1;
+    }
+
+    .process-faq-card {
+        max-width: 620px;
+        margin-left: auto;
+        padding: 50px;
+        background: rgba(255, 255, 255, .90);
+        -webkit-backdrop-filter: var(--glass-blur);
+        backdrop-filter: var(--glass-blur);
+        border-radius: 18px;
+        box-shadow: 0 24px 80px rgba(17, 16, 50, .12);
+    }
+
+    .process-faq-heading {
+        padding-bottom: 28px;
+        border-bottom: 1px solid rgba(17, 16, 50, .10);
+
+        .title {
+            margin: 0 0 14px;
+            color: var(--color-secondary);
+            font-size: 42px;
+            line-height: 1.1;
+            letter-spacing: 0;
+        }
+
+        .disc {
+            margin: 0;
+            color: var(--color-body);
+            font-size: 15px;
+            line-height: 1.65;
+            text-align: left;
+        }
+    }
+
+    .process-faq-eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 16px;
+        padding: 8px 14px;
+        border-radius: 999px;
+        background: var(--color-surface);
+        color: var(--color-secondary);
+        font-family: var(--font-secondary);
+        font-size: 12px;
+        line-height: 1;
+
+        &::before {
+            content: "";
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--color-primary);
+        }
+    }
+
+    .process-faq-accordion {
+        .accordion-item {
+            border: 0;
+            border-bottom: 1px solid rgba(17, 16, 50, .10);
+            border-radius: 0;
+            background: transparent;
+
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+
+        .accordion-button {
+            min-height: 78px;
+            padding: 0 34px 0 0;
+            background: transparent;
+            box-shadow: none;
+            color: var(--color-secondary);
+            font-family: var(--font-secondary);
+            font-size: 16px;
+            font-weight: var(--s-medium);
+            line-height: 1.35;
+
+            &::after {
+                position: absolute;
+                right: 0;
+                width: 16px;
+                height: 16px;
+                background-image: none;
+                content: "\f107";
+                color: var(--color-secondary);
+                font-family: var(--font-3);
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1;
+                transform: rotate(180deg);
+            }
+
+            &.collapsed::after {
+                transform: rotate(0deg);
+            }
+        }
+
+        .accordion-body {
+
+            max-width: 92%;
+            padding: 0 0px 28px 20px;
+            color: var(--color-body);
+            font-size: 15px;
+            line-height: 1.65;
+            text-align: justify;
+        }
+    }
+
+    @media #{$mdsm-layout} {
+        min-height: auto;
+        padding: 70px 0;
+        background-position: 42% center;
+
+        &::before {
+            background: rgba(244, 246, 248, .45);
+        }
+
+        .process-faq-card {
+            max-width: 100%;
+            margin: 0;
+        }
+    }
+
+    @media #{$large-mobile} {
+        padding: 56px 0;
+
+        .process-faq-card {
+            padding: 32px 24px;
+            border-radius: 14px;
+        }
+
+        .process-faq-heading {
+            .title {
+                font-size: 32px;
+            }
+        }
+
+        .process-faq-accordion {
+            .accordion-button {
+                min-height: 68px;
+                font-size: 15px;
+            }
+
+            .accordion-body {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+// Success gallery used by propuesta home pages
+
+.rts-success-gallery-area {
+    background: var(--color-surface);
+
+    &.is-hover-disabled {
+        .success-gallery-overlay {
+            opacity: 0 !important;
+            visibility: hidden;
+            pointer-events: none;
+        }
+    }
+
+    .success-gallery-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        text-align: center;
+
+        .pre {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 6px 17px;
+            border: 1px solid rgba(22, 103, 176, .2);
+            border-radius: 30px;
+            font-family: var(--font-secondary);
+            font-size: 16px;
+            font-weight: var(--p-regular);
+            line-height: 26px;
+            color: var(--color-secondary);
+        }
+
+        .title {
+            margin: 0;
+            font-family: var(--font-primary);
+            font-size: 48px;
+            font-weight: var(--p-regular);
+            letter-spacing: -2px;
+            color: var(--color-secondary);
+        }
+
+        .disc {
+            max-width: 760px;
+            margin: 0;
+            color: #525252;
+            line-height: 1.65;
+            text-align-last: center;
+        }
+
+        .results-category-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 8px;
+
+            span,
+            button {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px 16px;
+                border: 0;
+                border-radius: 30px;
+                background: rgba(30, 86, 161, .08);
+                color: var(--color-secondary);
+                font-family: var(--font-secondary);
+                font-size: 15px;
+                line-height: 1.2;
+                text-align: center;
+                white-space: nowrap;
+                transition: background-color .25s ease, color .25s ease;
+            }
+
+            button {
+                width: auto;
+                max-width: none;
+                appearance: none;
+                cursor: pointer;
+
+                &:not(.is-active):hover {
+                    background: rgba(30, 86, 161, .14);
+                }
+
+                &.is-active {
+                    background: var(--color-secondary);
+                    color: var(--color-white);
+                }
+
+                &:focus-visible {
+                    outline: 2px solid rgba(22, 103, 176, .35);
+                    outline-offset: 3px;
+                }
+            }
+        }
+    }
+
+    .success-gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-auto-rows: clamp(190px, 18vw, 250px);
+        gap: 24px;
+
+        .success-gallery-card {
+            &:nth-child(1) {
+                grid-area: card-1;
+            }
+
+            &:nth-child(2) {
+                grid-area: card-2;
+            }
+
+            &:nth-child(3) {
+                grid-area: card-3;
+            }
+
+            &:nth-child(4) {
+                grid-area: card-4;
+            }
+
+            &:nth-child(5) {
+                grid-area: card-5;
+            }
+
+            &:nth-child(6) {
+                grid-area: card-6;
+            }
+        }
+    }
+
+    .results-layout-one {
+        grid-template-areas:
+            "card-1 card-2 card-3 card-3"
+            "card-4 card-2 card-5 card-6";
+    }
+
+    .results-layout-two {
+        grid-template-areas:
+            "card-2 card-1 card-4 card-5"
+            "card-2 card-6 card-3 card-3";
+    }
+
+    .results-layout-three {
+        grid-template-areas:
+            "card-3 card-3 card-1 card-2"
+            "card-4 card-5 card-6 card-2";
+    }
+
+    .results-layout-four {
+        grid-template-areas:
+            "card-1 card-3 card-3 card-2"
+            "card-4 card-5 card-6 card-2";
+    }
+
+    .success-results-swiper {
+        padding-bottom: 0;
+        overflow: visible;
+
+        .swiper-slide {
+            height: auto;
+        }
+
+        .swiper-slide-active {
+            .success-gallery-card {
+                animation: success-card-enter .7s cubic-bezier(.22, 1, .36, 1) both;
+
+                &:nth-child(2) {
+                    animation-delay: .04s;
+                }
+
+                &:nth-child(3) {
+                    animation-delay: .08s;
+                }
+
+                &:nth-child(4) {
+                    animation-delay: .12s;
+                }
+
+                &:nth-child(5) {
+                    animation-delay: .16s;
+                }
+
+                &:nth-child(6) {
+                    animation-delay: .2s;
+                }
+            }
+        }
+    }
+
+    .success-results-pagination {
+        position: relative;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        margin-top: 30px;
+        z-index: 5;
+
+        .swiper-pagination-bullet {
+            display: inline-flex;
+            width: 10px !important;
+            height: 10px !important;
+            margin: 0;
+            border-radius: 999px;
+            background: rgba(17, 16, 50, .24);
+            opacity: 1 !important;
+            transition: width .3s ease, background-color .3s ease;
+        }
+
+        .swiper-pagination-bullet-active {
+            width: 34px !important;
+            background: var(--color-primary);
+        }
+    }
+
+    .success-gallery-card {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        border-radius: 10px;
+        background: #F8F8F8;
+        will-change: transform, opacity;
+
+        > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform .4s ease;
+        }
+
+        &:hover {
+            > img {
+                transform: scale(1.04);
+            }
+
+            .success-gallery-overlay {
+                opacity: 1;
+            }
+
+            .success-gallery-icon {
+                transform: translateY(0) scale(1);
+            }
+        }
+    }
+
+    .success-gallery-overlay {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(38, 38, 38, .5);
+        opacity: 0;
+        transition: opacity .3s ease;
+    }
+
+    .success-gallery-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: var(--color-primary);
+        transform: translateY(8px) scale(.9);
+        transition: transform .3s ease;
+
+        img {
+            width: 28px;
+            height: 28px;
+            object-fit: contain;
+        }
+    }
+
+    @media #{$smlg-device} {
+        .success-gallery-grid {
+            gap: 20px;
+        }
+    }
+
+    @media #{$mdsm-layout} {
+        .success-gallery-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            grid-auto-rows: 230px;
+            grid-template-areas:
+                "card-1 card-2"
+                "card-3 card-3"
+                "card-4 card-5"
+                "card-6 card-6";
+        }
+
+    }
+
+    @media #{$sm-layout} {
+        .success-gallery-heading {
+            .title {
+                font-size: 38px;
+                line-height: 42px;
+                letter-spacing: -1px;
+            }
+        }
+
+        .success-gallery-grid {
+            grid-template-columns: 1fr;
+            grid-auto-rows: 250px;
+            gap: 18px;
+            grid-template-areas:
+                "card-1"
+                "card-2"
+                "card-3"
+                "card-4"
+                "card-5"
+                "card-6";
+        }
+
+        .success-results-pagination {
+            margin-top: 24px;
+        }
+
+    }
+
+    @media #{$small-mobile} {
+        .success-gallery-heading {
+            .title {
+                font-size: 33px;
+                line-height: 38px;
+            }
+        }
+
+        .success-gallery-card {
+            border-radius: 22px;
+        }
+    }
+}
+
+@keyframes success-card-enter {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 18px, 0) scale(.985);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+}

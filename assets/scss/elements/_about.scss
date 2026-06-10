@@ -53,11 +53,11 @@
     .pre {
         border-radius: 30px;
         padding: 5px 16px;
-        color: #615EFC;
+        color: var(--color-primary);
         margin-bottom: 21px;
         display: block;
         max-width: max-content;
-        border: 1px solid rgba(97, 94, 252, 0.2);
+        border: 1px solid rgba(30, 86, 161, 0.2);
     }
 
     .title {
@@ -112,7 +112,7 @@
             &.one {
                 border-radius: 50%;
                 padding: 4px;
-                border: 1px solid rgba(97, 94, 252, 0.2);
+                border: 1px solid rgba(30, 86, 161, 0.2);
             }
 
             &.sign {
@@ -142,7 +142,7 @@
         margin-bottom: 20px;
         padding: 22px 20px;
         border-radius: 20px;
-        border: 1px solid rgba(97, 94, 252, 0.2);
+        border: 1px solid rgba(30, 86, 161, 0.2);
         display: flex;
         align-items: center;
         gap: 20px;
@@ -338,7 +338,7 @@
         flex-direction: column;
 
         .counbter-about {
-            background: #615EFC;
+            background: var(--color-primary);
             border-radius: 10px;
             padding: 10px 15px;
             margin-bottom: 15px;
@@ -411,7 +411,7 @@
             display: flex;
             align-items: center;
             padding: 10px 0;
-            border-bottom: 1px solid rgba(97, 94, 252, 0.2);
+            border-bottom: 1px solid rgba(30, 86, 161, 0.2);
 
             p {
                 margin: 0;
@@ -521,7 +521,7 @@
     .pre {
         padding: 6px 15px;
         border-radius: 33px;
-        border: 1px solid rgba(97, 94, 252, 0.2);
+        border: 1px solid rgba(30, 86, 161, 0.2);
         margin-bottom: 70px;
         color: var(--color-primary);
         display: block;
@@ -583,7 +583,7 @@
         position: absolute;
         left: -60px;
         bottom: -40px;
-        background: #615EFC;
+        background: var(--color-primary);
         border-radius: 10px;
         padding: 19px 25px;
         width: 170px;

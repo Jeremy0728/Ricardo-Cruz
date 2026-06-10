@@ -10,7 +10,7 @@
 .health-package-single-wrapper {
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid rgba(97, 94, 252, 0.12);
+    border: 1px solid rgba(30, 86, 161, 0.12);
     background: #F9F8FF;
 
     .inner-content {
@@ -145,7 +145,7 @@
                 border: none !important;
                 padding: 10px;
                 border-radius: 10px !important;
-                border: 1px solid rgba(97, 94, 252, 0.2) !important;
+                border: 1px solid rgba(30, 86, 161, 0.2) !important;
                 color: #111032;
                 display: flex;
                 align-items: center;
@@ -228,7 +228,7 @@
             input,
             .nice-select {
                 height: 45px;
-                border: 1px solid rgba(97, 94, 252, 0.2);
+                border: 1px solid rgba(30, 86, 161, 0.2);
 
                 &:focus {
                     border-color: var(--color-primary);
@@ -240,7 +240,7 @@
                 border-radius: 10px;
 
                 span {
-                    color: #6b6b6b;
+                    color: var(--color-body);
                     font-size: 16px;
                 }
 
@@ -255,7 +255,7 @@
 
     textarea {
         height: 120px;
-        border: 1px solid rgba(97, 94, 252, 0.2);
+        border: 1px solid rgba(30, 86, 161, 0.2);
         margin-bottom: 25px;
 
         &:focus {

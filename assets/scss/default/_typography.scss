@@ -1,5 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+﻿@font-face {
+    font-family: "Opulent";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/brand/opulent-regular.woff") format("woff"),
+        url("../fonts/brand/opulent-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/brand/metropolis-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/brand/metropolis-latin-500-normal.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 300 900;
+    font-display: swap;
+    src: url("../fonts/google/rubik-latin-300-900.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: italic;
+    font-weight: 300 900;
+    font-display: swap;
+    src: url("../fonts/google/rubik-latin-italic-300-900.woff2") format("woff2");
+}
 
 * {
     box-sizing: border-box;
@@ -19,7 +57,7 @@ body {
     line-height: var(--line-height-b1);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: "Rubik", sans-serif;
+    font-family: var(--font-body);
     color: var(--color-body);
     font-weight: var(--p-regular);
     position: relative;
@@ -91,8 +129,9 @@ h6,
 .h5,
 .h6 {
     word-break: break-word;
-    font-family: "Syne", sans-serif;
-    line-height: 1.4074;
+    font-family: var(--font-primary);
+    font-weight: var(--s-regular);
+    line-height: 1.4;
     color: var(--color-heading-1);
 }
 
@@ -100,7 +139,7 @@ h1,
 .h1 {
     font-size: var(--h1);
     line-height: 1.3;
-    font-weight: 700;
+    font-weight: var(--s-regular);
 }
 
 h2,
@@ -243,7 +282,7 @@ h2,
 .h2,
 h3,
 .h3 {
-    font-weight: var(--s-bold);
+    font-weight: var(--s-regular);
 }
 
 
@@ -251,20 +290,23 @@ h4,
 .h4,
 h5,
 .h5 {
-    font-weight: var(--s-bold);
+    font-weight: var(--s-regular);
 }
 
 h6,
 .h6 {
-    font-weight: var(--s-bold);
+    font-weight: var(--s-regular);
 }
 
 p {
+    font-family: var(--font-body);
     font-size: var(--font-size-b2);
     line-height: var(--line-height-b2);
     font-weight: var(--p-regular);
     color: var(--color-body);
     margin: 0 0 40px;
+    letter-spacing: 0.05em;
+    text-align: justify;
 
     @media #{$sm-layout} {
         margin: 0 0 20px;
@@ -365,7 +407,7 @@ cite,
 }
 
 var {
-    font-family: "Syne", sans-serif;
+    font-family: var(--font-primary);
 }
 
 /*---------------------------
@@ -418,6 +460,7 @@ ul {
         margin-top: 10px;
         margin-bottom: 10px;
         color: var(--color-body);
+        letter-spacing: 0.05em;
 
         a {
             text-decoration: none;
@@ -561,5 +604,15 @@ h3 {
     @media #{$small-mobile} {
         font-size: 22px;
         line-height: 30px;
+    }
+}
+
+@media #{$large-mobile} {
+
+    .rts-apponemnt-area-5-content,
+    .title-between-area,
+    .success-gallery-heading,
+    .process-faq-card {
+        padding-inline: 20px;
     }
 }

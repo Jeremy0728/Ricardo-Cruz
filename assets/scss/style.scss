@@ -55,6 +55,7 @@
 @import'default/shortcode';
 @import'default/animations';
 @import'default/text-animation';
+@import'default/cursor';
 
 
 
@@ -98,3 +99,11 @@
 @import'elements/contact';
 @import'elements/procedure';
 @import'elements/preloader';
+
+/* propuesta */
+@import'propuesta/shared';
+@import'propuesta/home';
+@import'propuesta/procedimientos';
+@import'propuesta/resultados';
+@import'propuesta/blog';
+@import'propuesta/contacto';

@@ -35,7 +35,6 @@
     },
     methods: function (e) {
       rtsJs.metismenu();
-      rtsJs.afterBefore();
       rtsJs.swiperActive();
       rtsJs.wowActive();
       rtsJs.stickyHeader();
@@ -51,88 +50,6 @@
 
     metismenu: function () {
       $('#mobile-menu-active').metisMenu();
-    },
-
-    afterBefore: function () {
-      $(document).ready(function () {
-
-        if ($(".comparison-slider")[0]) {
-          let compSlider = $(".comparison-slider");
-
-          compSlider.each(function () {
-            let compSliderWidth = $(this).width() + "px";
-            $(this).find(".resize img").css({ width: compSliderWidth });
-            drags($(this).find(".divider"), $(this).find(".resize"), $(this));
-          });
-
-          $(window).on("resize", function () {
-            let compSliderWidth = compSlider.width() + "px";
-            compSlider.find(".resize img").css({ width: compSliderWidth });
-          });
-        }
-      });
-      function drags(dragElement, resizeElement, container) {
-
-        let touched = false;
-        window.addEventListener('touchstart', function () {
-          touched = true;
-        });
-        window.addEventListener('touchend', function () {
-          touched = false;
-        });
-
-        dragElement.on("mousedown touchstart", function (e) {
-
-          dragElement.addClass("draggable");
-          resizeElement.addClass("resizable");
-          //create vars
-          let startX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;
-          let dragWidth = dragElement.outerWidth();
-          let posX = dragElement.offset().left + dragWidth - startX;
-          let containerOffset = container.offset().left;
-          let containerWidth = container.outerWidth();
-          let minLeft = containerOffset + 10;
-          let maxLeft = containerOffset + containerWidth - dragWidth - 10;
-
-          dragElement.parents().on("mousemove touchmove", function (e) {
-
-            if (touched === false) {
-              e.preventDefault();
-            }
-
-            let moveX = e.pageX ? e.pageX : e.originalEvent.touches[0].pageX;
-            let leftValue = moveX + posX - dragWidth;
-
-            if (leftValue < minLeft) {
-              leftValue = minLeft;
-            } else if (leftValue > maxLeft) {
-              leftValue = maxLeft;
-            }
-
-            let widthValue = (leftValue + dragWidth / 2 - containerOffset) * 100 / containerWidth + "%";
-
-            $(".draggable").css("left", widthValue).on("mouseup touchend touchcancel", function () {
-              $(this).removeClass("draggable");
-              resizeElement.removeClass("resizable");
-            });
-
-            $(".resizable").css("width", widthValue);
-
-          }).on("mouseup touchend touchcancel", function () {
-            dragElement.removeClass("draggable");
-            resizeElement.removeClass("resizable");
-
-          });
-
-        }).on("mouseup touchend touchcancel", function (e) {
-          dragElement.removeClass("draggable");
-          resizeElement.removeClass("resizable");
-
-        });
-
-      }
-
-
     },
 
     swiperActive: function () {
@@ -409,6 +326,17 @@
         });
       });
       $(document).ready(function () {
+        function updateBannerEightTitle(swiperInstance) {
+          var titles = document.querySelectorAll(".mySwiper-banner-eight .banner-eight-title-rotator .title");
+          if (!titles.length) {
+            return;
+          }
+
+          titles.forEach(function (title, index) {
+            title.classList.toggle("is-active", index === swiperInstance.realIndex);
+          });
+        }
+
         var swiper = new Swiper(".mySwiper-banner-eight", {
           spaceBetween: 0,
           slidesPerView: 1,
@@ -416,12 +344,20 @@
           speed: 1000,
           effect: "fade",
           autoplay: {
-            delay: 3000,
+            delay: 10000,
             disableOnInteraction: false,
           },
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
+          },
+          on: {
+            init: function () {
+              updateBannerEightTitle(this);
+            },
+            slideChange: function () {
+              updateBannerEightTitle(this);
+            },
           },
         });
       });
@@ -868,10 +804,3 @@
 
   rtsJs.m();
 })(jQuery, window)
-
-
-
-
-
-
-

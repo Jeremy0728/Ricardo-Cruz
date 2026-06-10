@@ -49,11 +49,32 @@
         }
     }
 
+    .rts-btn.btn-primary.border.bg-transparent {
+        padding: 11px 26px;
+        border: 1px solid rgba(30, 86, 161, 0.2) !important;
+        background: transparent !important;
+        color: var(--color-primary) !important;
+
+        img {
+            filter: brightness(0) saturate(100%) invert(32%) sepia(95%) saturate(1000%) hue-rotate(180deg) brightness(90%) contrast(94%);
+            transition: .3s;
+        }
+
+        &:hover {
+            border-color: transparent !important;
+            background: var(--gradient-primary) !important;
+            color: var(--color-white) !important;
+
+            img {
+                filter: brightness(0) invert(1);
+            }
+        }
+    }
     a.button-wrapper {
         margin-top: 15px;
         display: block;
         padding-bottom: 28px;
-        border-bottom: 1px solid rgba(97, 94, 252, 0.2);
+        border-bottom: 1px solid rgba(30, 86, 161, 0.2);
         margin-bottom: 28px;
 
         .title {
@@ -98,7 +119,7 @@
 
     .inner-content-area {
         padding: 40px 50px;
-        border: 1px solid rgba(97, 94, 252, 0.2);
+        border: 1px solid rgba(30, 86, 161, 0.2);
         border-radius: 0 0 10px 10px;
 
         @media #{$sm-layout} {
@@ -165,7 +186,7 @@
 .single-sidebar-wized {
     padding: 35px 30px;
     border-radius: 10px;
-    border: 1px solid rgba(97, 94, 252, 0.2);
+    border: 1px solid rgba(30, 86, 161, 0.2);
     margin-bottom: 40px;
 
     @media #{$large-mobile} {
@@ -182,7 +203,7 @@
         input {
             height: 50px;
             border-radius: 10px;
-            border: 1px solid rgba(97, 94, 252, 0.2);
+            border: 1px solid rgba(30, 86, 161, 0.2);
             color: #7D7D7D;
 
             &:focus {
@@ -212,7 +233,7 @@
         align-items: center;
         justify-content: space-between;
         border-radius: 10px;
-        border: 1px solid rgba(97, 94, 252, 0.2);
+        border: 1px solid rgba(30, 86, 161, 0.2);
         padding: 15px 20px;
         transition: .3s;
         margin-bottom: 10px;
@@ -297,7 +318,7 @@
 
     .single-tag {
         padding: 6px 15px;
-        border: 1px solid rgba(97, 94, 252, 0.2);
+        border: 1px solid rgba(30, 86, 161, 0.2);
         border-radius: 6px;
         font-size: 14px;
         color: #74787C;
@@ -306,7 +327,7 @@
         font-weight: 500;
 
         &:hover {
-            background: #615EFC;
+            background: var(--color-primary);
             color: #fff;
         }
     }
@@ -342,7 +363,7 @@
 
     .inner-content {
         padding: 40px 50px;
-        border: 1px solid rgba(97, 94, 252, 0.2);
+        border: 1px solid rgba(30, 86, 161, 0.2);
 
         @media #{$sm-layout} {
             padding: 25px;
@@ -365,7 +386,7 @@
         .quote-area {
             padding: 25px 40px;
             border-radius: 10px;
-            border: 1px solid rgba(97, 94, 252, 0.2);
+            border: 1px solid rgba(30, 86, 161, 0.2);
             margin-bottom: 35px;
 
             @media #{$large-mobile} {
@@ -537,7 +558,7 @@
 
     textarea {
         height: 140px;
-        border: 1px solid rgba(97, 94, 252, 0.2);
+        border: 1px solid rgba(30, 86, 161, 0.2);
         padding: 13px;
 
         &:focus {

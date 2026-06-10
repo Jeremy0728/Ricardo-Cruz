@@ -23,7 +23,7 @@
 
     &.with-border {
         .thumbnail {
-            border: 1px solid rgba(97, 94, 252, 1);
+            border: 1px solid rgba(30, 86, 161, 1);
         }
     }
 
@@ -177,10 +177,75 @@
 }
 
 .rts-apponemnt-area-5-content {
+    .disc {
+        margin: 0 0 20px;
+    }
+
+    .subtitle {
+        margin-top: 18px;
+        margin-bottom: 16px;
+        font-size: 24px;
+        line-height: 1.35;
+        color: var(--color-secondary);
+    }
+
+    .doctor-key-points {
+        display: grid;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            position: relative;
+            padding-left: 26px;
+            color: #262626;
+            line-height: 1.55;
+            margin: 0;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: .62em;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: var(--color-primary);
+            }
+        }
+    }
+
+    .doctor-signature {
+        display: block;
+        width: min(100%, 320px);
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .button-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        flex-wrap: nowrap;
+        margin-top: 32px;
+
+        .rts-btn {
+            min-width: 213px;
+            justify-content: center;
+            white-space: nowrap;
+        }
+    }
+
     .call-infor-wrapper {
         display: flex;
         align-items: center;
         gap: 15px;
+        min-width: max-content;
+
+        .icon {
+            flex: 0 0 auto;
+        }
 
         .info {
             * {
@@ -193,11 +258,11 @@
 
             a {
                 font-size: 24px;
+                white-space: nowrap;
             }
         }
     }
 }
-
 .title-area-left {
     .pre-title {
         margin-bottom: 15px;
@@ -210,6 +275,12 @@
 
 .rts-appoinment-area {
     z-index: 1;
+    padding-top: clamp(58px, 5vw, 86px);
+
+    .thumbnail-appoinment-5 {
+        max-width: 650px;
+        margin-left: auto;
+    }
 
     .right-bottom-area {
         position: absolute;
@@ -256,7 +327,7 @@
         .thumbnail{
             height: 207px;
             width: 207px;
-            border-color: rgba(97, 94, 252, 0.2);
+            border-color: rgba(30, 86, 161, 0.2);
             transition: .3s;
             &:hover{
                 border-color: var(--color-primary);

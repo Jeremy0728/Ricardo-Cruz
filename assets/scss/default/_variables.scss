@@ -1,20 +1,47 @@
-:root {
+﻿:root {
 
     // themes color
-    --color-primary: #615EFC;
-    --color-secondary: #1F1F25;
+    --color-primary: #1667b0;
+    --color-secondary: #222D56;
+    --color-accent: #23477C;
 
     // body color
-    --color-body: #6B6B6B;
+    --color-body: #515662;
 
     // title color
     --color-heading-1: #111032;
 
     --color-white: #fff;
+    --color-black: #000;
+
+    // compatibility aliases
+    --at-common-white: var(--color-white);
+    --at-common-black: var(--color-black);
 
     --color-border: #DDD8F9;
+    --color-surface: #F4F6F8;
     --border-width: 1px;
     --radius: 10px;
+    --border-pre: 1px solid rgba(30, 86, 161, 0.2);
+
+    // effects
+    --glass-bg-light: rgba(255, 255, 255, 0.1);
+    --glass-bg-dark: rgba(17, 16, 50, 0.2);
+    --glass-bg-hover: rgba(255, 255, 255, 0.2);
+    --glass-blur: blur(15px);
+
+    // gradients
+    --gradient-primary: linear-gradient(
+        145deg,
+        var(--color-secondary) 0%,
+        var(--color-primary) 100%
+    );
+    --gradient-service-card-overlay: linear-gradient(
+        180deg,
+        rgba(34, 45, 86, 0.03) 0%,
+        rgba(30, 86, 161, 0.08) 38%,
+        rgba(17, 16, 50, 0.72) 100%
+    );
 
     // notify Colors
     --color-success: #3EB75E;
@@ -60,8 +87,9 @@
 
 
     // Font Family
-    --font-primary: "Syne", sans-serif;
+    --font-primary: "Opulent", serif;
     --font-secondary: "Rubik", sans-serif;
+    --font-body: "Metropolis", sans-serif;
     --font-3: 'fontawesome';
     //Fonts Size
     --font-size-b1: 16px;
@@ -79,7 +107,7 @@
 
     // Heading Font
     --h1: 60px;
-    --h2: 48px;
+    --h2: 52px;
     --h3: 30px;
     --h4: 26px;
     --h5: 24px;

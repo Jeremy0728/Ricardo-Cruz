@@ -60,7 +60,7 @@
     }
 
     &.active {
-        background: #615EFC;
+        background: var(--color-primary);
 
         h2,
         p,

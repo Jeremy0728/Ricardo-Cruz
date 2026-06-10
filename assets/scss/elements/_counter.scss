@@ -32,7 +32,7 @@
             height: 100%;
             top: 0;
             width: 1px;
-            background: rgba(97, 94, 252, 0.2);
+            background: rgba(30, 86, 161, 0.2);
 
             @media #{$mdsm-layout} {
                 display: none;
@@ -54,7 +54,7 @@
 .single-dental-service-areas {
     .thumbnail {
         img {
-            width: 1000%;
+            width: 100%;
         }
     }
 }
