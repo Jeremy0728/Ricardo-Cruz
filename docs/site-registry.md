@@ -5,6 +5,7 @@ Este registro acompana `docs/decisions.md`. Su funcion es dar a cualquier agente
 ## Fuentes Canonicas
 
 - Memoria de decisiones: `docs/decisions.md`.
+- Arquitectura operativa: `docs/architecture.md`.
 - Entrada para agentes: `AGENTS.md`.
 - Proyecto real: `C:\Users\JEREMY\Desktop\mediweb`.
 - Fuente puente: `D:\Newt\Ricardo Cruz\05-Mayo\ricardo-cruz-web\source-site\mediweb\propuesta`.
@@ -20,6 +21,7 @@ Este registro acompana `docs/decisions.md`. Su funcion es dar a cualquier agente
 | `resultados.html` | Resultados | Resultados antes/despues. Usa `assets/data/resultados-before-after.json`. |
 | `blog.html` | Blog listado | Listado de articulos y cards de blog. |
 | `contacto.html` | Contacto | Contacto, sedes/branches, mapa y formulario. Pendiente: title heredado de template. |
+| `service.html` | Servicios / laboratorio visual | Pagina heredada del template usada para construir variantes de cards. Actualmente usa `service-card-healthio` en `assets/scss/elements/_service.scss`. |
 | `procedimientos/rinoplastia.html` | Procedimiento | Hero, casos JSON, contenido, resultados, formulario y galeria social. |
 | `procedimientos/mamoplastia-aumento.html` | Procedimiento | Hero, casos JSON, contenido, resultados, formulario y galeria social. |
 | `procedimientos/lipoescultura.html` | Procedimiento | Hero, casos JSON, contenido, resultados, formulario y galeria social. |
@@ -44,6 +46,7 @@ Este registro acompana `docs/decisions.md`. Su funcion es dar a cualquier agente
 - `resultados.html`: resultados antes/despues. Usa `data-module-action="before-after-results"` y `assets/data/resultados-before-after.json`.
 - `blog.html`: listado de articulos. Usa cards y botones de blog.
 - `contacto.html`: contacto, sedes/branches, mapa y formulario.
+- `service.html`: pagina heredada de servicios. Su grilla usa la variante visual `service-card-healthio` sin modificar globalmente `.single-service-area`.
 
 ## Procedimientos
 
@@ -154,6 +157,7 @@ Responsabilidades rapidas:
 - `assets/scss/elements/doctors.scss`: pagina Dr Ricardo Cruz.
 - `assets/scss/elements/_procedure.scss`: elementos de procedimientos e instagram strip.
 - `assets/scss/elements/_preloader.scss`: preloader.
+- `assets/scss/elements/_service.scss`: cards y secciones de servicios. Incluye variante aislada `service-card-healthio` para `service.html`.
 - `assets/scss/propuesta/_home.scss`: home.
 - `assets/scss/propuesta/_procedimientos.scss`: heroes y layout de procedimientos.
 - `assets/scss/propuesta/_resultados.scss`: resultados.

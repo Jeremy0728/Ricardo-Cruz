@@ -9,6 +9,7 @@ Este documento es la memoria canonica para agentes y humanos trabajando en esta 
 - Archivo canonico: `docs/decisions.md`.
 - Entrada corta para agentes: `AGENTS.md` apunta a este archivo.
 - Registro completo del sitio: `docs/site-registry.md`.
+- Arquitectura operativa: `docs/architecture.md`.
 - Indice de documentacion: `docs/README.md`.
 - Implicacion: no reconstruir contexto desde cero si la informacion ya esta aqui.
 - Implicacion: no copiar decisiones de otros proyectos anteriores dentro de `docs/decisions.md`.
@@ -93,6 +94,7 @@ Thumbs.db
   - `resultados.html`
   - `blog.html`
   - `contacto.html`
+  - `service.html`
 - Paginas de procedimientos:
   - `procedimientos/rinoplastia.html`
   - `procedimientos/mamoplastia-aumento.html`
@@ -111,6 +113,7 @@ Thumbs.db
 - Decision: conservar nombres de clases y estructura base siempre que sea viable.
 - Decision: adaptar contenido y assets antes de rehacer markup.
 - Decision: eliminar referencias heredadas que no pertenezcan al proyecto, especialmente enlaces a `index-2.html`.
+- Decision vigente: cuando una card o seccion heredada necesita una version visual nueva, crear un modificador de clase en lugar de alterar la clase base si esta puede estar compartida.
 - Implicacion: no crear una pagina paralela si la estructura actual se puede corregir.
 - Implicacion: si una seccion del puente usa una clase existente, traerla con su SCSS/JS propietario en vez de inventar una nueva capa.
 
@@ -140,6 +143,7 @@ Thumbs.db
   - `assets/scss/elements/_preloader.scss`
   - `assets/scss/elements/_footer.scss`
   - `assets/scss/elements/_team.scss`
+- Decision vigente: `service.html` usa la variante `.single-service-area.service-card-healthio` definida en `assets/scss/elements/_service.scss`; no modificar `.single-service-area` global para cambios especificos de esa card.
 - Implicacion: si falta estilo en una pagina, buscar primero el parcial propietario antes de crear otro archivo.
 - Implicacion: no crear overrides globales genericos para resolver una sola seccion.
 
@@ -302,3 +306,9 @@ Thumbs.db
 - Se incorporaron SCSS faltantes para breadcrumbs, pagina del doctor, procedimientos, preloader y secciones de propuesta.
 - Se eliminaron referencias a `index-2.html` en paginas migradas.
 - Se ajustaron botones, cards, footer, hero doctor, blog, testimonios y carruseles siguiendo la referencia del puente.
+
+### 2026-06-11
+
+- Se agrego `docs/architecture.md` como mapa operativo para IAs y humanos.
+- Se documento `service.html` como pagina heredada/laboratorio visual de servicios.
+- Se creo la variante de card `.single-service-area.service-card-healthio` en `assets/scss/elements/_service.scss` para emular la card de Figma sin romper la base `.single-service-area`.

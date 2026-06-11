@@ -1,33 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.ico">
-    <title>Resultados antes y despu&eacute;s | Dr. Ricardo Cruz</title>
-    <meta name="description" content="Casos cl&iacute;nicos de antes y despu&eacute;s en cirug&iacute;a pl&aacute;stica del Dr. Ricardo Cruz. Resultados naturales con enfoque premium y personalizado.">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+    <title>Medical & Health Care
+        HTML Template</title>
+    <meta name="description" content="Your trusted source for expert healthcare services and medical information. Providing personalized care, advanced treatments, and reliable health resources to help you achieve better health.">
     <link rel="stylesheet" href="assets/css/plugins/plugins.css">
     <link rel="stylesheet" href="assets/css/plugins/magnifying-popup.css">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="at-magic-cursor">
-    <div class="loader-wrapper" aria-hidden="true">
-        <div class="loader-mask"></div>
-        <div class="loader">
-            <span class="loader-ring"></span>
-            <span class="loader-ring is-delayed"></span>
-            <span class="loader-logo">
-                <img src="assets/images/fav2.svg" alt="">
-            </span>
-        </div>
-    </div>
-    <div id="magic-cursor">
-        <div id="ball"></div>
-    </div>
-<!-- header area start -->
+<body>
+    <!-- header area start -->
     <!-- header area start -->
     <header class="header-one  header--sticky">
         <div class="container">
@@ -84,15 +72,15 @@
     <!-- header area end -->
 
     <!-- rts breadcrumb area start -->
-    <div class="rts-breadcrumb-area breadcrumb-resultados bg_image rts-section-gap">
+    <div class="rts-breadcrumb-area bg_image rts-section-gap">
         <div class="container ptb--40">
             <div class="row">
                 <div class="breadcrumb-area-wrapper">
-                    <h1 class="title">Resultados</h1>
+                    <h1 class="title">Procedimientos</h1>
                     <div class="nav-bread-crumb">
-                        <a href="index.html">Inicio</a>
+                        <a href="/">Home</a>
                         <i class="fa-solid fa-chevron-right"></i>
-                        <a href="#" class="current">Resultados</a>
+                        <a href="#" class="current">Procedimientos</a>
                     </div>
                 </div>
             </div>
@@ -100,42 +88,105 @@
     </div>
     <!-- rts breadcrumb area end -->
 
-    <!-- before and after section area start -->
-    <section class="before-after-results rts-section-gap" data-module-action="before-after-results" data-results-src="assets/data/resultados-before-after.json">
+
+    
+    <!-- srvice area start -->
+    <div class="service-area service-area--card-variant position-relative rts-section-gap">
         <div class="container">
-            <div class="row">
+            <div class="row g-5">
                 <div class="col-lg-12">
-                    <header class="before-after-results__header">
-                        <p class="before-after-results__kicker">Antes / Despu&eacute;s</p>
-                        <h2 class="before-after-results__title">Casos cl&iacute;nicos reales</h2>
-                        <p class="before-after-results__intro">Cada resultado se presenta por paciente para mantener el contexto cl&iacute;nico: una imagen principal, vistas complementarias y una galer&iacute;a enfocada solo en ese caso.</p>
-                    </header>
-
-                    <div class="before-after-results__filters" data-before-after-results-filters aria-label="Filtrar resultados por categoria"></div>
-
-                    <p class="before-after-results__loading" data-before-after-results-loading>Cargando casos...</p>
-                    <div class="before-after-results__cases" data-before-after-results-cases></div>
-                    <p class="before-after-results__empty" data-before-after-results-empty hidden>Pronto agregaremos casos para esta categor&iacute;a.</p>
+                    <div class="title-between-area">
+                        <div class="title-wrapper-left" data-gsap-animated="true">
+                            <span class="pre" data-gsap-prepared="true" style="" data-gsap-animated="true">Servicios</span>
+                            <h2 class="title" data-gsap-prepared="true" style="" data-gsap-animated="true">
+                                Guía para tomar una decisión informada
+                            </h2>
+                        </div>
+                        <p class="disc">
+                            Contenido educativo para resolver dudas antes de una evaluación, entender el proceso y comparar expectativas con información médica.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s" data-wow-duration=".8s">
+                    <div class="single-service-area service-card-healthio">
+                        <a href="procedimientos/rinoplastia.html" class="service-card-healthio__media">
+                            <img src="assets/images/service/01.jpg" alt="Rinoplastia ultrasonica">
+                            <span class="service-card-healthio__icon">
+                                <img src="assets/images/service/01.png" alt="">
+                            </span>
+                        </a>
+                        <div class="service-card-healthio__body">
+                            <h4 class="title">Rinoplastia ultrasonica</h4>
+                            <p class="disc">
+                                Correccion estetica y funcional de la nariz con planificacion personalizada.
+                            </p>
+                            <a href="procedimientos/rinoplastia.html" class="service-card-healthio__link">Ver procedimiento <i
+                                    class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".8s">
+                    <div class="single-service-area service-card-healthio">
+                        <a href="procedimientos/mamoplastia-aumento.html" class="service-card-healthio__media">
+                            <img src="assets/images/service/02.jpg" alt="Mamoplastia de aumento">
+                            <span class="service-card-healthio__icon">
+                                <img src="assets/images/service/02.png" alt="">
+                            </span>
+                        </a>
+                        <div class="service-card-healthio__body">
+                            <h4 class="title">Mamoplastia de aumento</h4>
+                            <p class="disc">
+                                Aumento mamario con seleccion cuidadosa de implantes y proporcion corporal.
+                            </p>
+                            <a href="procedimientos/mamoplastia-aumento.html" class="service-card-healthio__link">Ver procedimiento <i
+                                    class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".8s">
+                    <div class="single-service-area service-card-healthio">
+                        <a href="procedimientos/lipoescultura.html" class="service-card-healthio__media">
+                            <img src="assets/images/service/03.jpg" alt="Lipoescultura">
+                            <span class="service-card-healthio__icon">
+                                <img src="assets/images/service/03.png" alt="">
+                            </span>
+                        </a>
+                        <div class="service-card-healthio__body">
+                            <h4 class="title">Lipoescultura</h4>
+                            <p class="disc">
+                                Remodelacion corporal enfocada en definir contornos y mejorar proporciones.
+                            </p>
+                            <a href="procedimientos/lipoescultura.html" class="service-card-healthio__link">Ver procedimiento <i
+                                    class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="before-after-results-lightbox" data-before-after-results-lightbox role="dialog" aria-modal="true" aria-label="Galeria de caso clinico" hidden>
-            <div class="before-after-results-lightbox__panel">
-                <button class="before-after-results-lightbox__close" type="button" data-before-after-results-lightbox-close aria-label="Cerrar galeria">x</button>
-                <button class="before-after-results-lightbox__nav before-after-results-lightbox__nav--prev" type="button" data-before-after-results-lightbox-nav="-1" aria-label="Imagen anterior">&lsaquo;</button>
-                <figure class="before-after-results-lightbox__figure">
-                    <img src="" alt="" data-before-after-results-lightbox-image>
-                    <figcaption class="before-after-results-lightbox__caption">
-                        <span data-before-after-results-lightbox-title></span>
-                        <small data-before-after-results-lightbox-count></small>
-                    </figcaption>
-                </figure>
-                <button class="before-after-results-lightbox__nav before-after-results-lightbox__nav--next" type="button" data-before-after-results-lightbox-nav="1" aria-label="Imagen siguiente">&rsaquo;</button>
-                <div class="before-after-results-lightbox__thumbs" data-before-after-results-lightbox-thumbs aria-label="Miniaturas del caso"></div>
+        <div class="service-content-iamge">
+            <img src="assets/images/service/13.png" alt="service">
+        </div>
+    </div>
+    <!-- srvice area end -->
+
+
+    <div class="request-appoinment-area rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="request-appoinemnt-area-main-wrapper bg_image rts-section-gap">
+                        <span class="pre">Book Appointment</span>
+                        <h2 class="title">
+                            Request Your <br>
+                            <span>Appointment</span>
+                        </h2>
+                        <a href="contacto.html" class="rts-btn btn-primary">Get Appointment</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <!-- before and after section area end -->
+    </div>
+
 
 
     <!-- header area start -->
@@ -227,6 +278,7 @@
     <!-- header area end -->
 
 
+
     <!-- header style two -->
     <div id="side-bar" class="side-bar header-two">
         <button class="close-icon-menu"><i class="far fa-times"></i></button>
@@ -235,23 +287,55 @@
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
                     <li class="has-droupdown">
-                        <a href="#" class="main">Inicio</a>
+                        <a href="#" class="main">Home</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="index.html">Home principal</a></li>
+                            <li><a class="mobile-menu-link" href="index.html">Main Home</a></li>
+                            <li><a class="mobile-menu-link" href="index-two.html">Home Two</a></li>
+                            <li><a class="mobile-menu-link" href="index-three.html">Home Three</a></li>
+                            <li><a class="mobile-menu-link" href="index-four.html">Home Four</a></li>
+                            <li><a class="mobile-menu-link" href="index-five.html">Home Five</a></li>
+                            <li><a class="mobile-menu-link" href="index-six.html">Home Six</a></li>
+                            <li><a class="mobile-menu-link" href="index-seven.html">Home Seven</a></li>
+                            <li><a class="mobile-menu-link" href="index-eight.html">Home Eight</a></li>
+                            <li><a class="mobile-menu-link" href="index-nine.html">Home Nine</a></li>
                         </ul>
                     </li>
-                    <li><a href="dr-ricardo-cruz.html" class="main">Dr Ricardo Cruz</a></li>
                     <li class="has-droupdown">
-                        <a href="#" class="main">Procedimientos</a>
+                        <a href="#" class="main">Pages</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="procedimientos/rinoplastia.html">Rinoplastía</a></li>
-                            <li><a class="mobile-menu-link" href="procedimientos/mamoplastia-aumento.html">Mamoplastia de aumento</a></li>
-                            <li><a class="mobile-menu-link" href="procedimientos/lipoescultura.html">Lipoescultura</a></li>
+                            <li class="main-nav"><a href="about.html">About</a></li>
+                            <li><a class="mobile-menu-link" href="doctors-one.html">Our Doctors</a></li>
+                            <li><a class="mobile-menu-link" href="doctors-two.html">Our Doctors v2</a></li>
+                            <li><a class="mobile-menu-link" href="doctor-details.html">Doctors Details</a></li>
+                            <li><a class="mobile-menu-link" href="appoinment.html">Appoinment</a></li>
+                            <li><a class="mobile-menu-link" href="procedures.html">Procedures</a></li>
+                            <li><a class="mobile-menu-link" href="portfolio.html">Portfolio</a></li>
+                            <li><a class="mobile-menu-link" href="portfolio-details.html">Portfolio Details</a></li>
+                            <li><a class="mobile-menu-link" href="faq.html">FAQ's</a></li>
+                            <li><a class="mobile-menu-link" href="shedule.html">Docot Shedule</a></li>
+                            <li><a class="mobile-menu-link" href="pricing.html">Pricing Plane</a></li>
+                            <li><a class="mobile-menu-link" href="before-after.html">Before After</a></li>
+                            <li><a class="mobile-menu-link" href="contactus.html">Contact Us</a></li>
                         </ul>
                     </li>
-                    <li><a href="resultados.html" class="main">Resultados</a></li>
-                    <li><a href="blog.html" class="main">Blog</a></li>
-                    <li><a href="contacto.html" class="main">Contacto</a></li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Service</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a href="service.html">Service</a></li>
+                            <li><a href="service-details.html">Service Details</a></li>
+                            <li><a href="service-details-2.html">Service Details v2</a></li>
+                            <li><a href="service-details-3.html">Service Details v3</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Blog</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="blog.html">Blog Post</a></li>
+                            <li><a class="mobile-menu-link" href="blog-list.html">Blog Post</a></li>
+                            <li><a class="mobile-menu-link" href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contactus.html" class="main">Contact</a></li>
                 </ul>
             </nav>
 
@@ -283,7 +367,13 @@
         <!-- mobile menu area end -->
     </div>
     <!-- header style two End -->
-<div id="anywhere-home">
+    <div class="loader-wrapper">
+        <div class="loader">
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <div id="anywhere-home">
     </div>
     <!-- progress area start -->
     <div class="progress-wrap">
@@ -296,7 +386,6 @@
 
     <script src="assets/js/plugins/jquery.js"></script>
     <script src="assets/js/plugins/jquery-ui.js"></script>
-    <script src="assets/js/plugins/at-cursor.js"></script>
     <script src="assets/js/vendor/waw.js"></script>
     <script src="assets/js/plugins/swiper.js"></script>
     <script src="assets/js/plugins/metismenu.js"></script>
@@ -305,12 +394,7 @@
     <script src="assets/js/plugins/magnifying-popup.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
     <!-- main js here -->
-    <script src="assets/js/plugins/gsap.min.js"></script>
-    <script src="assets/js/plugins/ScrollTrigger.min.js"></script>
-    <script src="assets/js/plugins/proposal-gsap.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/plugins/before-after-results.js"></script>
-
 </body>
 
 </html>

@@ -14859,6 +14859,211 @@ header .rts-btn {
   border: 1px solid var(--color-primary);
 }
 
+.service-area--card-variant {
+  background: #f4f7fb;
+}
+.service-area--card-variant .title-wrapper-left {
+  max-width: 760px;
+}
+.service-area--card-variant .title-wrapper-left .disc {
+  text-align: left;
+}
+.service-area--card-variant .title-between-area {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 16px;
+}
+.service-area--card-variant .title-between-area .title-wrapper-left {
+  flex: 0 1 620px;
+  margin-bottom: 0;
+}
+.service-area--card-variant .title-between-area > .disc {
+  flex: 0 1 470px;
+  margin: 0 0 8px;
+  color: #515662;
+  font-size: 17px;
+  line-height: 1.65;
+  text-align: left;
+}
+.service-area--card-variant .service-content-iamge {
+  opacity: 0.28;
+  pointer-events: none;
+}
+
+.single-service-area.service-card-healthio {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-height: 100%;
+  padding: 10px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 18px 45px rgba(17, 16, 50, 0.08);
+}
+.single-service-area.service-card-healthio:hover {
+  border: 0;
+  transform: translateY(-6px);
+  box-shadow: 0 24px 58px rgba(17, 16, 50, 0.12);
+}
+.single-service-area.service-card-healthio:hover .service-card-healthio__media img {
+  transform: scale(1.04);
+}
+.single-service-area.service-card-healthio:hover .service-card-healthio__icon {
+  background: #111;
+}
+.single-service-area.service-card-healthio:hover .service-card-healthio__icon img {
+  filter: brightness(0) invert(1);
+}
+.single-service-area.service-card-healthio:hover .service-card-healthio__link i {
+  transform: rotate(0deg);
+}
+
+.service-card-healthio__media {
+  position: relative;
+  display: block;
+  aspect-ratio: 281/147;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #f4f6f8;
+}
+.service-card-healthio__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  transition: transform 0.5s ease;
+}
+
+.service-card-healthio__icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #f4f6f8;
+  box-shadow: 0 12px 28px rgba(17, 16, 50, 0.08);
+  transition: background 0.3s ease;
+}
+.service-card-healthio__icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(7%) sepia(9%) saturate(3733%) hue-rotate(214deg) brightness(91%) contrast(92%);
+  transition: filter 0.3s ease;
+}
+
+.service-card-healthio__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 28px 20px 22px;
+}
+.service-card-healthio__body .title {
+  margin-bottom: 12px;
+  color: #111032;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+.service-card-healthio__body .disc {
+  margin-bottom: 28px;
+  color: #515662;
+  font-size: 17px;
+  line-height: 1.55;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.service-card-healthio__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+}
+.service-card-healthio__link i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #fff;
+  background: #111;
+  font-size: 14px;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease;
+}
+.service-card-healthio__link:hover {
+  color: var(--color-primary);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-card-healthio__body .title {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .service-area--card-variant .title-wrapper-left {
+    margin-bottom: 10px;
+  }
+  .service-area--card-variant .title-between-area {
+    display: block;
+    margin-bottom: 6px;
+  }
+  .service-area--card-variant .title-between-area .title-wrapper-left {
+    margin-bottom: 16px;
+  }
+  .service-area--card-variant .title-between-area > .disc {
+    max-width: 100%;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .single-service-area.service-card-healthio {
+    border-radius: 16px;
+  }
+  .service-card-healthio__icon {
+    top: 16px;
+    left: 16px;
+    width: 50px;
+    height: 50px;
+  }
+  .service-card-healthio__icon img {
+    width: 24px;
+    height: 24px;
+  }
+  .service-card-healthio__body {
+    padding: 22px 16px 18px;
+  }
+  .service-card-healthio__body .title {
+    font-size: 22px;
+  }
+  .service-card-healthio__body .disc {
+    font-size: 15px;
+  }
+  .service-card-healthio__link {
+    font-size: 16px;
+  }
+  .service-card-healthio__link i {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+}
 .btn-transparent {
   color: #111032;
   font-weight: 400;
