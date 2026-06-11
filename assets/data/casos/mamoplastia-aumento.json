@@ -1,0 +1,237 @@
+{
+  "procedimiento": "mamoplastia-aumento",
+  "casos": [
+    {
+      "id": "caso-001",
+      "grupoOrigen": "descarga-2326",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-001/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232638.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-001/galeria/01.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232627.png"
+        },
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-001/galeria/02.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232656.png"
+        },
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-001/galeria/03.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232707.png"
+        },
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-001/galeria/04.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232716.png"
+        }
+      ]
+    },
+    {
+      "id": "caso-002",
+      "grupoOrigen": "descarga-2319",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-002/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 231924.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-002/galeria/01.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 231915.png"
+        }
+      ]
+    },
+    {
+      "id": "caso-003",
+      "grupoOrigen": "descarga-2320",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-003/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232028.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-003/galeria/01.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 231948.png"
+        },
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-003/galeria/02.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232019.png"
+        }
+      ]
+    },
+    {
+      "id": "caso-004",
+      "grupoOrigen": "descarga-2321",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-004/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232120.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-004/galeria/01.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232112.png"
+        }
+      ]
+    },
+    {
+      "id": "caso-005",
+      "grupoOrigen": "descarga-232147",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-005/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232147.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-005/galeria/01.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232138.png"
+        }
+      ]
+    },
+    {
+      "id": "caso-006",
+      "grupoOrigen": "descarga-2322",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-006/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232227.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-006/galeria/01.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232219.png"
+        },
+        {
+          "archivo": "assets/images/mamoplastia-aumento/casos/caso-006/galeria/02.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232248.png"
+        }
+      ]
+    },
+    {
+      "id": "caso-007",
+      "grupoOrigen": "descarga-232758",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-007/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232758.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": true,
+      "galeria": []
+    },
+    {
+      "id": "caso-008",
+      "grupoOrigen": "156988",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-008/banner.jpg",
+      "bannerOriginal": "684164233_1569885128478585_7672058194004723351_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": false,
+      "galeria": []
+    },
+    {
+      "id": "caso-009",
+      "grupoOrigen": "descarga-232159",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-009/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232159.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": false,
+      "galeria": []
+    },
+    {
+      "id": "caso-010",
+      "grupoOrigen": "descarga-232351",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-010/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232351.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": false,
+      "galeria": []
+    },
+    {
+      "id": "caso-011",
+      "grupoOrigen": "descarga-232606",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-011/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232606.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": false,
+      "galeria": []
+    },
+    {
+      "id": "caso-012",
+      "grupoOrigen": "descarga-232750",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-012/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232750.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": false,
+      "galeria": []
+    },
+    {
+      "id": "caso-013",
+      "grupoOrigen": "descarga-232811",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-013/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232811.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": false,
+      "galeria": []
+    },
+    {
+      "id": "caso-014",
+      "grupoOrigen": "descarga-232359",
+      "banner": "assets/images/mamoplastia-aumento/casos/caso-014/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232359.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "mamoplastia",
+        "mamaria"
+      ],
+      "visibleEnVentana": false,
+      "galeria": []
+    }
+  ]
+}

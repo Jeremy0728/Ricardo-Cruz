@@ -1,0 +1,236 @@
+{
+  "procedimiento": "rinoplastia",
+  "casos": [
+    {
+      "id": "caso-001",
+      "grupoOrigen": "150983",
+      "banner": "assets/images/rinoplastia/casos/caso-001/banner.jpg",
+      "bannerOriginal": "640419261_1509834031150362_2270100448012518856_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-001/galeria/02.jpg",
+          "archivoOriginal": "640901283_1509834047817027_135486680896930530_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-001/galeria/01.jpg",
+          "archivoOriginal": "640754937_1509833981150367_1076828713770297746_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-001/galeria/03.jpg",
+          "archivoOriginal": "641373005_1509834037817028_7095123747399449899_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-001/galeria/04.jpg",
+          "archivoOriginal": "641491518_1509833997817032_7225493929809824559_n.jpg"
+        }
+      ]
+    },
+    {
+      "id": "caso-002",
+      "grupoOrigen": "151372",
+      "banner": "assets/images/rinoplastia/casos/caso-002/banner.jpg",
+      "bannerOriginal": "642296409_1513720967428335_5194658697083396672_n (1).jpg",
+      "especializaciones": [],
+      "etiquetas": [],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-002/galeria/05.jpg",
+          "archivoOriginal": "643347925_1513721040761661_1273087338644474497_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-002/galeria/01.jpg",
+          "archivoOriginal": "642296409_1513720967428335_5194658697083396672_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-002/galeria/02.jpg",
+          "archivoOriginal": "642716831_1513720960761669_441363014695776471_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-002/galeria/03.jpg",
+          "archivoOriginal": "642720671_1513720950761670_5657883950524451637_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-002/galeria/04.jpg",
+          "archivoOriginal": "643239542_1513720920761673_7995318928473644048_n.jpg"
+        }
+      ]
+    },
+    {
+      "id": "caso-003",
+      "grupoOrigen": "152508",
+      "banner": "assets/images/rinoplastia/casos/caso-003/banner.jpg",
+      "bannerOriginal": "649555235_1525081072958991_5794421220989679162_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-003/galeria/03.jpg",
+          "archivoOriginal": "650735801_1525081046292327_5774467318936224238_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-003/galeria/01.jpg",
+          "archivoOriginal": "649836294_1525081099625655_734001157601693557_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-003/galeria/02.jpg",
+          "archivoOriginal": "650532817_1525081069625658_5590834080171590902_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-003/galeria/04.jpg",
+          "archivoOriginal": "651169573_1525081066292325_3014190214485126597_n.jpg"
+        }
+      ]
+    },
+    {
+      "id": "caso-004",
+      "grupoOrigen": "155084",
+      "banner": "assets/images/rinoplastia/casos/caso-004/banner.jpg",
+      "bannerOriginal": "668301482_1550846950382403_3024398705352790470_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-004/galeria/01.jpg",
+          "archivoOriginal": "668481226_1550846973715734_9030210954997910716_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-004/galeria/02.jpg",
+          "archivoOriginal": "668590963_1550847027049062_6861669492324245265_n.jpg"
+        }
+      ]
+    },
+    {
+      "id": "caso-005",
+      "grupoOrigen": "155593",
+      "banner": "assets/images/rinoplastia/casos/caso-005/banner.jpg",
+      "bannerOriginal": "670915321_1555935416540223_6345477983350131837_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-005/galeria/04.jpg",
+          "archivoOriginal": "672677341_1555935479873550_5272947887990101165_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-005/galeria/02.jpg",
+          "archivoOriginal": "672670398_1555935483206883_6814650763734596709_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-005/galeria/01.jpg",
+          "archivoOriginal": "671227391_1555935389873559_5248495338444633137_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-005/galeria/03.jpg",
+          "archivoOriginal": "672674680_1555935429873555_460988856123850766_n.jpg"
+        }
+      ]
+    },
+    {
+      "id": "caso-006",
+      "grupoOrigen": "157342",
+      "banner": "assets/images/rinoplastia/casos/caso-006/banner.jpg",
+      "bannerOriginal": "686314927_1573421821458249_2340958156633620796_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-006/galeria/03.jpg",
+          "archivoOriginal": "687675463_1573421841458247_5227086188717076198_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-006/galeria/04.jpg",
+          "archivoOriginal": "688805147_1573421824791582_7411339750765490769_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-006/galeria/01.jpg",
+          "archivoOriginal": "686941646_1573421788124919_7012096231191456249_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-006/galeria/02.jpg",
+          "archivoOriginal": "686953000_1573421791458252_5206308838985466386_n.jpg"
+        }
+      ]
+    },
+    {
+      "id": "caso-007",
+      "grupoOrigen": "157817",
+      "banner": "assets/images/rinoplastia/casos/caso-007/banner.jpg",
+      "bannerOriginal": "687490500_1578173450983086_940434928550049787_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-007/galeria/01.jpg",
+          "archivoOriginal": "689211587_1578173440983087_7387940919879800754_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-007/galeria/05.jpg",
+          "archivoOriginal": "691263337_1578173447649753_8417736063011497904_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-007/galeria/03.jpg",
+          "archivoOriginal": "690296578_1578173477649750_5840834742125334663_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-007/galeria/04.jpg",
+          "archivoOriginal": "690521717_1578173444316420_4322764013020661838_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-007/galeria/02.jpg",
+          "archivoOriginal": "689704435_1578173510983080_2267576750759784559_n.jpg"
+        }
+      ]
+    },
+    {
+      "id": "caso-008",
+      "grupoOrigen": "158389",
+      "banner": "assets/images/rinoplastia/casos/caso-008/banner.jpg",
+      "bannerOriginal": "698798720_1583899750410456_3637183627665491547_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-008/galeria/04.jpg",
+          "archivoOriginal": "699673041_1583899727077125_5380211764522538484_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-008/galeria/02.jpg",
+          "archivoOriginal": "699255818_1583899680410463_8357970515992030611_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-008/galeria/01.jpg",
+          "archivoOriginal": "699241660_1583899730410458_8550388236987192539_n.jpg"
+        },
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-008/galeria/03.jpg",
+          "archivoOriginal": "699398103_1583899647077133_7920475195037908483_n.jpg"
+        }
+      ]
+    },
+    {
+      "id": "caso-009",
+      "grupoOrigen": "152421",
+      "banner": "assets/images/rinoplastia/casos/caso-009/banner.jpg",
+      "bannerOriginal": "649525249_1524215763045522_8544505922172374486_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/rinoplastia/casos/caso-009/galeria/01.jpg",
+          "archivoOriginal": "649548619_1524215806378851_2276154147557439706_n.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "filters": [
+    {
+      "id": "all",
+      "label": "Todos"
+    },
+    {
+      "id": "facial",
+      "label": "Cirugia facial"
+    },
+    {
+      "id": "corporal",
+      "label": "Cirugia corporal"
+    },
+    {
+      "id": "mamaria",
+      "label": "Cirugia mamaria"
+    }
+  ],
+  "cases": [
+    {
+      "id": "caso-001",
+      "category": "facial",
+      "title": "Caso 01 \u00b7 Rinoplastia",
+      "procedure": "Rinoplastia",
+      "objective": "Armonizar el perfil nasal manteniendo un resultado natural.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Tres cuartos \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/rinoplastia/casos/caso-001/banner.jpg",
+          "alt": "Antes y despues de rinoplastia - caso 01 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-001/galeria/02.jpg",
+          "alt": "Rinoplastia antes y despues - caso 01 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-001/galeria/01.jpg",
+          "alt": "Rinoplastia antes y despues - caso 01 vista perfil",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-001/galeria/03.jpg",
+          "alt": "Rinoplastia antes y despues - caso 01 vista tres cuartos",
+          "label": "Tres cuartos"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-001/galeria/04.jpg",
+          "alt": "Rinoplastia antes y despues - caso 01 vista tres cuartos adicional",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "caso-002",
+      "category": "facial",
+      "title": "Caso 02 \u00b7 Rinoplastia",
+      "procedure": "Rinoplastia",
+      "objective": "Refinar la estructura nasal conservando proporcion y suavidad facial.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Tres cuartos \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/rinoplastia/casos/caso-002/banner.jpg",
+          "alt": "Antes y despues de rinoplastia - caso 02 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-002/galeria/05.jpg",
+          "alt": "Rinoplastia antes y despues - caso 02 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-002/galeria/01.jpg",
+          "alt": "Rinoplastia antes y despues - caso 02 vista perfil",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-002/galeria/02.jpg",
+          "alt": "Rinoplastia antes y despues - caso 02 vista tres cuartos",
+          "label": "Tres cuartos"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-002/galeria/03.jpg",
+          "alt": "Detalle del resultado de rinoplastia - caso 02",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "caso-003",
+      "category": "facial",
+      "title": "Caso 03 \u00b7 Rinoplastia",
+      "procedure": "Rinoplastia",
+      "objective": "Mejorar la linea del dorso nasal con una transicion mas equilibrada.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Tres cuartos \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/rinoplastia/casos/caso-003/banner.jpg",
+          "alt": "Antes y despues de rinoplastia - caso 03 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-003/galeria/03.jpg",
+          "alt": "Rinoplastia antes y despues - caso 03 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-003/galeria/01.jpg",
+          "alt": "Rinoplastia antes y despues - caso 03 vista perfil",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-003/galeria/02.jpg",
+          "alt": "Rinoplastia antes y despues - caso 03 vista tres cuartos",
+          "label": "Tres cuartos"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-003/galeria/04.jpg",
+          "alt": "Detalle del resultado de rinoplastia - caso 03",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "caso-004",
+      "category": "facial",
+      "title": "Caso 04 \u00b7 Rinoplastia",
+      "procedure": "Rinoplastia",
+      "objective": "Optimizar el perfil nasal respetando los rasgos propios del paciente.",
+      "views": "Perfil \u00b7 Tres cuartos",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/rinoplastia/casos/caso-004/banner.jpg",
+          "alt": "Antes y despues de rinoplastia - caso 04 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-004/galeria/01.jpg",
+          "alt": "Rinoplastia antes y despues - caso 04 vista perfil",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-004/galeria/02.jpg",
+          "alt": "Rinoplastia antes y despues - caso 04 vista tres cuartos",
+          "label": "Tres cuartos"
+        }
+      ]
+    },
+    {
+      "id": "caso-005",
+      "category": "facial",
+      "title": "Caso 05 \u00b7 Rinoplastia",
+      "procedure": "Rinoplastia",
+      "objective": "Buscar una apariencia nasal mas delicada y coherente con el rostro.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Tres cuartos \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/rinoplastia/casos/caso-005/banner.jpg",
+          "alt": "Antes y despues de rinoplastia - caso 05 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-005/galeria/04.jpg",
+          "alt": "Rinoplastia antes y despues - caso 05 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-005/galeria/02.jpg",
+          "alt": "Rinoplastia antes y despues - caso 05 vista perfil",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-005/galeria/01.jpg",
+          "alt": "Rinoplastia antes y despues - caso 05 vista tres cuartos",
+          "label": "Tres cuartos"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-005/galeria/03.jpg",
+          "alt": "Detalle del resultado de rinoplastia - caso 05",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "caso-006",
+      "category": "facial",
+      "title": "Caso 06 \u00b7 Rinoplastia",
+      "procedure": "Rinoplastia",
+      "objective": "Corregir proporciones del perfil nasal con un resultado discreto y natural.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Tres cuartos \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/rinoplastia/casos/caso-006/banner.jpg",
+          "alt": "Antes y despues de rinoplastia - caso 06 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-006/galeria/03.jpg",
+          "alt": "Rinoplastia antes y despues - caso 06 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-006/galeria/04.jpg",
+          "alt": "Rinoplastia antes y despues - caso 06 vista perfil",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-006/galeria/01.jpg",
+          "alt": "Rinoplastia antes y despues - caso 06 vista tres cuartos",
+          "label": "Tres cuartos"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-006/galeria/02.jpg",
+          "alt": "Detalle del resultado de rinoplastia - caso 06",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "caso-007",
+      "category": "facial",
+      "title": "Caso 07 \u00b7 Rinoplastia",
+      "procedure": "Rinoplastia",
+      "objective": "Lograr mayor armonia nasal sin perder identidad facial.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Tres cuartos \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/rinoplastia/casos/caso-007/banner.jpg",
+          "alt": "Antes y despues de rinoplastia - caso 07 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-007/galeria/01.jpg",
+          "alt": "Rinoplastia antes y despues - caso 07 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-007/galeria/05.jpg",
+          "alt": "Rinoplastia antes y despues - caso 07 vista perfil",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-007/galeria/03.jpg",
+          "alt": "Rinoplastia antes y despues - caso 07 vista tres cuartos",
+          "label": "Tres cuartos"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-007/galeria/04.jpg",
+          "alt": "Detalle del resultado de rinoplastia - caso 07",
+          "label": "Detalle"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-007/galeria/02.jpg",
+          "alt": "Detalle del resultado de rinoplastia - caso 07",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "caso-008",
+      "category": "facial",
+      "title": "Caso 08 \u00b7 Rinoplastia",
+      "procedure": "Rinoplastia",
+      "objective": "Equilibrar el dorso y punta nasal con una lectura facial mas suave.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Tres cuartos \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/rinoplastia/casos/caso-008/banner.jpg",
+          "alt": "Antes y despues de rinoplastia - caso 08 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-008/galeria/04.jpg",
+          "alt": "Rinoplastia antes y despues - caso 08 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-008/galeria/02.jpg",
+          "alt": "Rinoplastia antes y despues - caso 08 vista perfil",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-008/galeria/01.jpg",
+          "alt": "Rinoplastia antes y despues - caso 08 vista tres cuartos",
+          "label": "Tres cuartos"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-008/galeria/03.jpg",
+          "alt": "Detalle del resultado de rinoplastia - caso 08",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "caso-009",
+      "category": "facial",
+      "title": "Caso 09 \u00b7 Rinoplastia",
+      "procedure": "Rinoplastia",
+      "objective": "Evaluar el perfil nasal con una vista comparativa enfocada en proporcion facial.",
+      "views": "Perfil \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/rinoplastia/casos/caso-009/banner.jpg",
+          "alt": "Antes y despues de rinoplastia - caso 09 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/rinoplastia/casos/caso-009/galeria/01.jpg",
+          "alt": "Rinoplastia antes y despues - caso 09 vista complementaria",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "lipo-caso-001",
+      "category": "corporal",
+      "title": "Caso 01 \u00b7 Lipoescultura",
+      "procedure": "Lipoescultura",
+      "objective": "Definir la silueta posterior y mejorar la transicion cintura-gluteo.",
+      "views": "Posterior \u00b7 Antes \u00b7 Despues",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/lipoescultura/casos/caso-001/banner.jpg",
+          "alt": "Antes y despues de lipoescultura - caso 01 vista posterior",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/lipoescultura/casos/caso-001/galeria/01.jpg",
+          "alt": "Lipoescultura antes - caso 01 vista posterior",
+          "label": "Antes"
+        },
+        {
+          "src": "assets/images/lipoescultura/casos/caso-001/galeria/02.jpg",
+          "alt": "Lipoescultura despues - caso 01 vista posterior",
+          "label": "Despues"
+        }
+      ]
+    },
+    {
+      "id": "lipo-caso-002",
+      "category": "corporal",
+      "title": "Caso 02 \u00b7 Lipoescultura",
+      "procedure": "Lipoescultura",
+      "objective": "Mejorar el contorno del torso y cintura con enfoque en armonia corporal.",
+      "views": "Cintura \u00b7 Abdomen \u00b7 Posterior",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/lipoescultura/casos/caso-002/banner.png",
+          "alt": "Antes y despues de lipoescultura - caso 02 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/lipoescultura/casos/caso-002/galeria/01.png",
+          "alt": "Lipoescultura caso 02 vista de cintura",
+          "label": "Cintura"
+        },
+        {
+          "src": "assets/images/lipoescultura/casos/caso-002/galeria/02.png",
+          "alt": "Lipoescultura caso 02 vista posterior",
+          "label": "Posterior"
+        }
+      ]
+    },
+    {
+      "id": "lipo-caso-009",
+      "category": "corporal",
+      "title": "Caso 06 \u00b7 Lipoescultura",
+      "procedure": "Lipoescultura",
+      "objective": "Registrar la armonizacion posterior del torso.",
+      "views": "Posterior",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/lipoescultura/casos/caso-009/banner.png",
+          "alt": "Resultado de lipoescultura - caso 09 vista posterior",
+          "label": "Posterior"
+        }
+      ]
+    },
+    {
+      "id": "lipo-caso-012",
+      "category": "corporal",
+      "title": "Caso 07 \u00b7 Lipoescultura",
+      "procedure": "Lipoescultura",
+      "objective": "Evaluar el contorno posterior final del torso y cintura.",
+      "views": "Posterior",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/lipoescultura/casos/caso-012/banner.png",
+          "alt": "Resultado de lipoescultura - caso 12 vista posterior",
+          "label": "Posterior"
+        }
+      ]
+    },
+    {
+      "id": "mamaria-caso-001",
+      "category": "mamaria",
+      "title": "Caso 01 \u00b7 Mamoplastia de aumento",
+      "procedure": "Mamoplastia de aumento",
+      "objective": "Aumentar el volumen mamario conservando una proporcion natural con el torso.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Tres cuartos \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-001/banner.png",
+          "alt": "Antes y despues de mamoplastia de aumento - caso 01 vista principal",
+          "label": "Antes / Despues"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-001/galeria/01.png",
+          "alt": "Mamoplastia de aumento caso 01 vista de perfil",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-001/galeria/02.png",
+          "alt": "Mamoplastia de aumento caso 01 vista tres cuartos",
+          "label": "Tres cuartos"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-001/galeria/03.png",
+          "alt": "Mamoplastia de aumento caso 01 vista complementaria",
+          "label": "Detalle"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-001/galeria/04.png",
+          "alt": "Detalle del resultado de mamoplastia de aumento - caso 01",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "mamaria-caso-002",
+      "category": "mamaria",
+      "title": "Caso 02 \u00b7 Mamoplastia de aumento",
+      "procedure": "Mamoplastia de aumento",
+      "objective": "Mostrar el cambio de volumen mamario con vista frontal y lateral.",
+      "views": "Frontal \u00b7 Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-002/banner.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 02 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-002/galeria/01.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 02 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    },
+    {
+      "id": "mamaria-caso-003",
+      "category": "mamaria",
+      "title": "Caso 03 \u00b7 Mamoplastia de aumento",
+      "procedure": "Mamoplastia de aumento",
+      "objective": "Evaluar simetria, volumen y proporcion toracica desde varias vistas.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Tres cuartos",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-003/banner.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 03 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-003/galeria/01.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 03 vista lateral",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-003/galeria/02.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 03 vista complementaria",
+          "label": "Tres cuartos"
+        }
+      ]
+    },
+    {
+      "id": "mamaria-caso-004",
+      "category": "mamaria",
+      "title": "Caso 04 \u00b7 Mamoplastia de aumento",
+      "procedure": "Mamoplastia de aumento",
+      "objective": "Documentar el resultado frontal y el perfil mamario.",
+      "views": "Frontal \u00b7 Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-004/banner.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 04 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-004/galeria/01.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 04 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    },
+    {
+      "id": "mamaria-caso-005",
+      "category": "mamaria",
+      "title": "Caso 05 \u00b7 Mamoplastia de aumento",
+      "procedure": "Mamoplastia de aumento",
+      "objective": "Evaluar volumen y proporcion en vista frontal y lateral.",
+      "views": "Frontal \u00b7 Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-005/banner.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 05 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-005/galeria/01.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 05 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    },
+    {
+      "id": "mamaria-caso-006",
+      "category": "mamaria",
+      "title": "Caso 06 \u00b7 Mamoplastia de aumento",
+      "procedure": "Mamoplastia de aumento",
+      "objective": "Mostrar el resultado desde frontal, perfil y vista complementaria.",
+      "views": "Frontal \u00b7 Perfil \u00b7 Detalle",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-006/banner.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 06 vista frontal",
+          "label": "Frontal"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-006/galeria/01.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 06 vista lateral",
+          "label": "Perfil"
+        },
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-006/galeria/02.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 06 vista complementaria",
+          "label": "Detalle"
+        }
+      ]
+    },
+    {
+      "id": "mamaria-caso-007",
+      "category": "mamaria",
+      "title": "Caso 07 \u00b7 Mamoplastia de aumento",
+      "procedure": "Mamoplastia de aumento",
+      "objective": "Documentar la proporcion mamaria en vista frontal.",
+      "views": "Frontal",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/mamoplastia-aumento/casos/caso-007/banner.png",
+          "alt": "Resultado de mamoplastia de aumento - caso 07 vista frontal",
+          "label": "Frontal"
+        }
+      ]
+    },
+    {
+      "id": "corporal-caso-008",
+      "category": "corporal",
+      "title": "Caso 08 \u00b7 Cirugia corporal",
+      "procedure": "Cirugia corporal",
+      "objective": "Registrar el contorno corporal y la proyeccion del resultado.",
+      "views": "Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/cirugia-corporal/casos/caso-008/banner.jpg",
+          "alt": "Resultado de cirugia corporal - caso 08 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    },
+    {
+      "id": "corporal-caso-009",
+      "category": "corporal",
+      "title": "Caso 09 \u00b7 Cirugia corporal",
+      "procedure": "Cirugia corporal",
+      "objective": "Evaluar el contorno corporal en vista lateral comparativa.",
+      "views": "Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/cirugia-corporal/casos/caso-009/banner.png",
+          "alt": "Resultado de cirugia corporal - caso 09 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    },
+    {
+      "id": "corporal-caso-010",
+      "category": "corporal",
+      "title": "Caso 10 \u00b7 Cirugia corporal",
+      "procedure": "Cirugia corporal",
+      "objective": "Mostrar el perfil corporal y la proyeccion del resultado.",
+      "views": "Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/cirugia-corporal/casos/caso-010/banner.png",
+          "alt": "Resultado de cirugia corporal - caso 10 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    },
+    {
+      "id": "corporal-caso-011",
+      "category": "corporal",
+      "title": "Caso 11 \u00b7 Cirugia corporal",
+      "procedure": "Cirugia corporal",
+      "objective": "Registrar el contorno corporal desde una vista lateral comparativa.",
+      "views": "Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/cirugia-corporal/casos/caso-011/banner.png",
+          "alt": "Resultado de cirugia corporal - caso 11 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    },
+    {
+      "id": "corporal-caso-012",
+      "category": "corporal",
+      "title": "Caso 12 \u00b7 Cirugia corporal",
+      "procedure": "Cirugia corporal",
+      "objective": "Documentar el perfil corporal y la proporcion del resultado.",
+      "views": "Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/cirugia-corporal/casos/caso-012/banner.png",
+          "alt": "Resultado de cirugia corporal - caso 12 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    },
+    {
+      "id": "corporal-caso-013",
+      "category": "corporal",
+      "title": "Caso 13 \u00b7 Cirugia corporal",
+      "procedure": "Cirugia corporal",
+      "objective": "Evaluar la proyeccion corporal desde vista lateral.",
+      "views": "Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/cirugia-corporal/casos/caso-013/banner.png",
+          "alt": "Resultado de cirugia corporal - caso 13 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    },
+    {
+      "id": "corporal-caso-014",
+      "category": "corporal",
+      "title": "Caso 14 \u00b7 Cirugia corporal",
+      "procedure": "Cirugia corporal",
+      "objective": "Documentar la proyeccion corporal desde una vista lateral.",
+      "views": "Perfil",
+      "ctaHref": "contacto.html",
+      "images": [
+        {
+          "src": "assets/images/cirugia-corporal/casos/caso-014/banner.png",
+          "alt": "Resultado de cirugia corporal - caso 14 vista lateral",
+          "label": "Perfil"
+        }
+      ]
+    }
+  ]
+}

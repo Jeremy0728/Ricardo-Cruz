@@ -1,0 +1,75 @@
+{
+  "procedimiento": "lipoescultura",
+  "casos": [
+    {
+      "id": "caso-001",
+      "grupoOrigen": "150631",
+      "banner": "assets/images/lipoescultura/casos/caso-001/banner.jpg",
+      "bannerOriginal": "637970725_1506312458169186_1360720107569119692_n.jpg",
+      "especializaciones": [],
+      "etiquetas": [
+        "lipoescultura",
+        "corporal"
+      ],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/lipoescultura/casos/caso-001/galeria/01.jpg",
+          "archivoOriginal": "638034380_1506312448169187_2474240916347712732_n.jpg"
+        },
+        {
+          "archivo": "assets/images/lipoescultura/casos/caso-001/galeria/02.jpg",
+          "archivoOriginal": "638925075_1506312414835857_2713781012775016216_n.jpg"
+        }
+      ]
+    },
+    {
+      "id": "caso-002",
+      "grupoOrigen": "descarga-2323",
+      "banner": "assets/images/lipoescultura/casos/caso-002/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232320.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "lipoescultura",
+        "corporal"
+      ],
+      "visibleEnVentana": true,
+      "galeria": [
+        {
+          "archivo": "assets/images/lipoescultura/casos/caso-002/galeria/01.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232330.png"
+        },
+        {
+          "archivo": "assets/images/lipoescultura/casos/caso-002/galeria/02.png",
+          "archivoOriginal": "Captura de pantalla 2026-05-22 232339.png"
+        }
+      ]
+    },
+    {
+      "id": "caso-009",
+      "grupoOrigen": "descarga-232613",
+      "banner": "assets/images/lipoescultura/casos/caso-009/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232613.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "lipoescultura",
+        "corporal"
+      ],
+      "visibleEnVentana": true,
+      "galeria": []
+    },
+    {
+      "id": "caso-012",
+      "grupoOrigen": "descarga-232821",
+      "banner": "assets/images/lipoescultura/casos/caso-012/banner.png",
+      "bannerOriginal": "Captura de pantalla 2026-05-22 232821.png",
+      "especializaciones": [],
+      "etiquetas": [
+        "lipoescultura",
+        "corporal"
+      ],
+      "visibleEnVentana": true,
+      "galeria": []
+    }
+  ]
+}

@@ -1,43 +1,81 @@
 // breadcrumb area start
 
 .rts-breadcrumb-area {
-    background-image: url(../images/breadcrumb/01.jpg);
-}
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    --breadcrumb-image: url(../images/breadcrumb/01.jpg);
+    --breadcrumb-position: center;
+    --breadcrumb-size: cover;
+    --breadcrumb-attachment: fixed;
+    --breadcrumb-overlay: transparent;
+    --breadcrumb-text-color: #111032;
+    --breadcrumb-title-shadow: none;
+    --breadcrumb-panel-width: auto;
+    --breadcrumb-panel-padding: 0;
+    --breadcrumb-panel-radius: 0;
+    --breadcrumb-panel-bg: transparent;
+    --breadcrumb-panel-border: 0;
+    --breadcrumb-panel-filter: none;
+    --breadcrumb-panel-shadow: none;
+    background-image: var(--breadcrumb-image);
+    background-repeat: no-repeat;
+    background-size: var(--breadcrumb-size);
+    background-position: var(--breadcrumb-position);
+    background-attachment: var(--breadcrumb-attachment);
 
-.breadcrumb-area-wrapper {
-    text-align: center;
-    align-items: center;
-
-    h1.title {
-        font-size: 64px;
-
-        @media #{$large-mobile} {
-            font-size: 54px;
-        }
-
-        @media #{$sm-layout} {
-            font-size: 44px;
-        }
-
-        @media #{$large-mobile} {
-            font-size: 34px;
-        }
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        background: var(--breadcrumb-overlay);
+        pointer-events: none;
     }
 
-    .nav-bread-crumb {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        justify-content: center;
+    > .container {
+        position: relative;
+        z-index: 1;
+    }
 
-        i {
-            color: #111032;
+    .breadcrumb-area-wrapper {
+        width: var(--breadcrumb-panel-width);
+        max-width: 100%;
+        margin: 0 auto;
+        padding: var(--breadcrumb-panel-padding);
+        text-align: center;
+        align-items: center;
+
+        h1.title {
+            color: var(--breadcrumb-text-color);
+            font-size: 64px;
+            text-shadow: var(--breadcrumb-title-shadow);
+
+            @media #{$large-mobile} {
+                font-size: 54px;
+            }
+
+            @media #{$sm-layout} {
+                font-size: 44px;
+            }
+
+            @media #{$large-mobile} {
+                font-size: 34px;
+            }
         }
 
-        a {
-            color: #111032;
+        .nav-bread-crumb {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
 
-            &.current {
+            i,
+            a {
+                color: var(--breadcrumb-text-color);
+            }
+
+            a.current {
                 text-decoration: underline;
             }
         }
